@@ -161,45 +161,14 @@ Source: &lt;a href="http://www.farnell.com/datasheets/461166.pdf"&lt; Data sheet
 <wire x1="-1.0474" y1="-0.4729" x2="-1.0474" y2="0.6229" width="0.1524" layer="21"/>
 <wire x1="-1.0474" y1="0.6229" x2="-0.6229" y2="0.6229" width="0.1524" layer="21"/>
 <wire x1="0.6229" y1="0.6229" x2="1.0474" y2="0.6229" width="0.1524" layer="21"/>
-<smd name="1" x="-0.65" y="-0.925" dx="0.6" dy="0.55" layer="1"/>
-<smd name="2" x="0.65" y="-0.925" dx="0.6" dy="0.55" layer="1"/>
-<smd name="3" x="0" y="0.925" dx="0.6" dy="0.55" layer="1"/>
+<smd name="1G" x="-0.65" y="-0.925" dx="0.6" dy="0.55" layer="1"/>
+<smd name="2S" x="0.65" y="-0.925" dx="0.6" dy="0.55" layer="1"/>
+<smd name="3D" x="0" y="0.925" dx="0.6" dy="0.55" layer="1"/>
 <text x="-1" y="1.3" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1" y="-2.6" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.2" y1="0.625" x2="0.2" y2="1.1" layer="51"/>
 <rectangle x1="-0.85" y1="-1.1" x2="-0.45" y2="-0.625" layer="51" rot="R180"/>
 <rectangle x1="0.45" y1="-1.1" x2="0.85" y2="-0.625" layer="51" rot="R180"/>
-</package>
-<package name="SOT323-CANDY">
-<description>&lt;b&gt;SOT-323 (SC-70 3 Lead)&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.farnell.com/datasheets/461166.pdf"&lt; Data sheet &lt;/a&gt;</description>
-<wire x1="1.0474" y1="0.6229" x2="1.0474" y2="-0.6229" width="0.1524" layer="51"/>
-<wire x1="1.0474" y1="-0.6229" x2="-1.0474" y2="-0.6229" width="0.1524" layer="51"/>
-<wire x1="-1.0474" y1="-0.6229" x2="-1.0474" y2="0.6229" width="0.1524" layer="51"/>
-<wire x1="-1.0474" y1="0.6229" x2="1.0474" y2="0.6229" width="0.1524" layer="51"/>
-<wire x1="1.0474" y1="0.6229" x2="1.0474" y2="-0.4729" width="0.1524" layer="21"/>
-<wire x1="0.1646" y1="-0.6229" x2="-0.1646" y2="-0.6229" width="0.1524" layer="21"/>
-<wire x1="-1.0474" y1="-0.4729" x2="-1.0474" y2="0.6229" width="0.1524" layer="21"/>
-<wire x1="-1.0474" y1="0.6229" x2="-0.6229" y2="0.6229" width="0.1524" layer="21"/>
-<wire x1="0.6229" y1="0.6229" x2="1.0474" y2="0.6229" width="0.1524" layer="21"/>
-<smd name="1" x="-0.65" y="-0.925" dx="0.6" dy="0.55" layer="1"/>
-<smd name="2" x="0.65" y="-0.925" dx="0.6" dy="0.55" layer="1"/>
-<smd name="3" x="0" y="0.925" dx="0.6" dy="0.55" layer="1"/>
-<text x="-1" y="1.3" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1" y="-2.6" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.2" y1="0.625" x2="0.2" y2="1.1" layer="51"/>
-<rectangle x1="-0.85" y1="-1.1" x2="-0.45" y2="-0.625" layer="51" rot="R180"/>
-<rectangle x1="0.45" y1="-1.1" x2="0.85" y2="-0.625" layer="51" rot="R180"/>
-<polygon width="0.127" layer="1">
-<vertex x="-0.889" y="1.27"/>
-<vertex x="-1.016" y="1.27"/>
-<vertex x="-1.016" y="0.762"/>
-<vertex x="1.143" y="0.762"/>
-<vertex x="1.143" y="1.524"/>
-<vertex x="-1.016" y="1.524"/>
-<vertex x="-1.016" y="1.27"/>
-</polygon>
-<rectangle x1="-1.143" y1="0.635" x2="1.27" y2="1.651" layer="29"/>
 </package>
 <package name="LINX">
 <smd name="P$1-" x="0" y="0" dx="12.7" dy="12.7" layer="1" roundness="100"/>
@@ -353,19 +322,9 @@ Source: &lt;a href="http://www.farnell.com/datasheets/461166.pdf"&lt; Data sheet
 <devices>
 <device name="REGULAR" package="SOT323">
 <connects>
-<connect gate="G$1" pin="D" pad="1"/>
-<connect gate="G$1" pin="G" pad="2"/>
-<connect gate="G$1" pin="S" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="" package="SOT323-CANDY">
-<connects>
-<connect gate="G$1" pin="D" pad="1"/>
-<connect gate="G$1" pin="G" pad="2"/>
-<connect gate="G$1" pin="S" pad="3"/>
+<connect gate="G$1" pin="D" pad="3D"/>
+<connect gate="G$1" pin="G" pad="1G"/>
+<connect gate="G$1" pin="S" pad="2S"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2526,7 +2485,7 @@ type 0309, grid 2.5 mm</description>
 </classes>
 <parts>
 <part name="U$1" library="TinyTony_ShenzenReady" deviceset="SMDPAD" device=""/>
-<part name="U$2" library="TinyTony_ShenzenReady" deviceset="N-MOSFET" device=""/>
+<part name="U$2" library="TinyTony_ShenzenReady" deviceset="N-MOSFET" device="REGULAR" value="N-MOSFETREGULAR"/>
 <part name="U$3" library="TinyTony_ShenzenReady" deviceset="SMDPAD" device=""/>
 <part name="U$4" library="TinyTony_ShenzenReady" deviceset="SMDPAD" device=""/>
 <part name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R1206"/>
