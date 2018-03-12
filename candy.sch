@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -2429,128 +2429,28 @@ by exp-lbrs.ulp</description>
 <vertex x="0" y="-9" curve="-90"/>
 </polygon>
 </package>
-</packages>
-<packages3d>
-<package3d name="LINX" urn="urn:adsk.eagle:package:2160680/2" type="box" library_version="13" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="CR2032-LINX"/>
-</packageinstances>
-</package3d>
-<package3d name="CR2032-THRU" urn="urn:adsk.eagle:package:2160679/1" type="box" library_version="13" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="CR2032-THRU"/>
-</packageinstances>
-</package3d>
-<package3d name="CR2032-SMD" urn="urn:adsk.eagle:package:2160678/1" type="box" library_version="13" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="CR2032-SMD"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="3V" urn="urn:adsk.eagle:symbol:2160630/1" locally_modified="yes" library_version="13" library_locally_modified="yes">
-<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="0" x2="-0.635" y2="-0.635" width="0.4064" layer="94"/>
-<wire x1="0" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
-<text x="-1.27" y="3.175" size="1.778" layer="95">&gt;NAME</text>
-<text x="-1.27" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="+" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="-" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="0" x2="4.318" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="4.318" y1="0.762" x2="4.318" y2="-0.762" width="0.1524" layer="94"/>
-<wire x1="4.318" y1="-0.762" x2="5.08" y2="0" width="0.1524" layer="94"/>
-</symbol>
-<symbol name="A4L-LOC" urn="urn:adsk.eagle:symbol:2160619/1" library_version="13" library_locally_modified="yes">
-<wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="256.54" y1="19.05" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="161.29" y1="3.81" x2="161.29" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="161.29" y1="24.13" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="246.38" y1="3.81" x2="246.38" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="246.38" y1="8.89" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="246.38" y1="8.89" x2="215.265" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="8.89" x2="215.265" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="8.89" x2="215.265" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="13.97" x2="215.265" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
-<text x="217.17" y="15.24" size="2.54" layer="94" font="vector">&gt;DRAWING_NAME</text>
-<text x="217.17" y="10.16" size="2.286" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
-<text x="230.505" y="5.08" size="2.54" layer="94" font="vector">&gt;SHEET</text>
-<text x="216.916" y="4.953" size="2.54" layer="94" font="vector">Sheet:</text>
-<frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CR2032" urn="urn:adsk.eagle:component:2160700/2" locally_modified="yes" uservalue="yes" library_version="13" library_locally_modified="yes">
-<gates>
-<gate name="G$1" symbol="3V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="LINX" package="CR2032-LINX">
-<connects>
-<connect gate="G$1" pin="+" pad="P$2+ P$3+"/>
-<connect gate="G$1" pin="-" pad="P$1-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2160680/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="THRUHOLE" package="CR2032-THRU">
-<connects>
-<connect gate="G$1" pin="+" pad="+1 +2"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2160679/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD" package="CR2032-SMD">
-<connects>
-<connect gate="G$1" pin="+" pad="+$1 +$2"/>
-<connect gate="G$1" pin="-" pad="-"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2160678/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="A4L-LOC" urn="urn:adsk.eagle:component:2160690/1" prefix="FRAME" uservalue="yes" library_version="13" library_locally_modified="yes">
-<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
-DIN A4, landscape with location and doc. field</description>
-<gates>
-<gate name="G$1" symbol="A4L-LOC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="transistor-neu-to92" urn="urn:adsk.eagle:library:397">
-<description>&lt;b&gt;NPN Transistors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="TO3" urn="urn:adsk.eagle:footprint:28652/1" library_version="2">
+<package name="TO92-EBC" urn="urn:adsk.eagle:footprint:28681/1" library_version="13" library_locally_modified="yes">
+<description>&lt;b&gt;TO-92&lt;/b&gt; Pads In Line E B C from top&lt;p&gt;</description>
+<wire x1="-2.095" y1="-2.921" x2="2.095" y2="-2.921" width="0.127" layer="21"/>
+<wire x1="-2.413" y1="-0.1341" x2="2.413" y2="-0.1341" width="0.127" layer="21" curve="-129.583345"/>
+<wire x1="1.136" y1="-1.397" x2="-1.136" y2="-1.397" width="0.127" layer="51"/>
+<wire x1="-2.413" y1="-0.1341" x2="-2.664" y2="-1.397" width="0.127" layer="51" curve="27.937554"/>
+<wire x1="-2.664" y1="-1.397" x2="-2.413" y2="-2.4059" width="0.127" layer="51" curve="22.478763"/>
+<wire x1="-1.404" y1="-1.397" x2="-2.664" y2="-1.397" width="0.127" layer="51"/>
+<wire x1="-2.4135" y1="-2.4059" x2="-2.095" y2="-2.921" width="0.127" layer="21" curve="13.038528"/>
+<wire x1="-1.136" y1="-1.397" x2="-1.404" y2="-1.397" width="0.127" layer="21"/>
+<wire x1="2.413" y1="-2.4059" x2="2.664" y2="-1.397" width="0.127" layer="51" curve="22.478763"/>
+<wire x1="2.664" y1="-1.397" x2="2.413" y2="-0.1341" width="0.127" layer="51" curve="27.937554"/>
+<wire x1="2.664" y1="-1.397" x2="1.404" y2="-1.397" width="0.127" layer="51"/>
+<wire x1="1.404" y1="-1.397" x2="1.136" y2="-1.397" width="0.127" layer="21"/>
+<wire x1="2.095" y1="-2.921" x2="2.4247" y2="-2.3818" width="0.127" layer="21" curve="13.609443"/>
+<pad name="C" x="2.54" y="-1.27" drill="0.8128" shape="long" rot="R90"/>
+<pad name="E" x="-2.54" y="-1.27" drill="0.8128" shape="long" rot="R90"/>
+<pad name="B" x="0" y="-1.27" drill="0.8128" shape="long" rot="R90"/>
+<text x="-2.54" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-4.572" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="TO3" urn="urn:adsk.eagle:footprint:28652/1" library_version="13" library_locally_modified="yes">
 <description>&lt;b&gt;TO-3&lt;/b&gt;</description>
 <wire x1="6.3754" y1="-10.9982" x2="17.3736" y2="-4.5212" width="0.1524" layer="21"/>
 <wire x1="5.969" y1="11.2014" x2="17.3736" y2="4.5212" width="0.1524" layer="21"/>
@@ -2578,7 +2478,7 @@ DIN A4, landscape with location and doc. field</description>
 <text x="-3.81" y="-6.223" size="1.27" layer="51" ratio="10" rot="R90">E</text>
 <text x="-3.81" y="4.572" size="1.27" layer="51" ratio="10" rot="R90">B</text>
 </package>
-<package name="TO18" urn="urn:adsk.eagle:footprint:28650/1" library_version="2">
+<package name="TO18" urn="urn:adsk.eagle:footprint:28650/1" library_version="13" library_locally_modified="yes">
 <description>&lt;b&gt;TO 18&lt;/b&gt;</description>
 <wire x1="0.9289" y1="2.227" x2="2.227" y2="0.9289" width="0.0508" layer="51" curve="-44.717164"/>
 <wire x1="0.9289" y1="-2.227" x2="2.227" y2="-0.9289" width="0.0508" layer="51" curve="44.717164"/>
@@ -2599,73 +2499,7 @@ DIN A4, landscape with location and doc. field</description>
 <text x="0.635" y="-1.27" size="1.27" layer="51" ratio="10">2</text>
 <text x="0" y="0.635" size="1.27" layer="51" ratio="10">3</text>
 </package>
-<package name="TO18-" urn="urn:adsk.eagle:footprint:28667/1" library_version="2">
-<description>&lt;b&gt;TO-18&lt;/b&gt;</description>
-<wire x1="-2.2098" y1="-0.9692" x2="2.2098" y2="-0.9692" width="0.0508" layer="21" curve="132.636282"/>
-<wire x1="-0.9692" y1="2.2098" x2="0.9692" y2="2.2098" width="0.0508" layer="51" curve="-47.363718"/>
-<wire x1="-2.2098" y1="0.9692" x2="-2.2098" y2="-0.9692" width="0.0508" layer="51" curve="47.363718"/>
-<wire x1="-2.2098" y1="0.9692" x2="-0.9692" y2="2.2098" width="0.0508" layer="21" curve="-42.636282"/>
-<wire x1="2.2098" y1="-0.9692" x2="2.2098" y2="0.9692" width="0.0508" layer="51" curve="47.363718"/>
-<wire x1="1.649" y1="-2.411" x2="2.413" y2="-3.175" width="0.1524" layer="21"/>
-<wire x1="2.411" y1="-1.649" x2="3.175" y2="-2.413" width="0.1524" layer="21"/>
-<wire x1="2.413" y1="-3.175" x2="3.175" y2="-2.413" width="0.1524" layer="21"/>
-<wire x1="0.9692" y1="2.2098" x2="2.2098" y2="0.9692" width="0.0508" layer="21" curve="-42.636282"/>
-<circle x="0" y="0" radius="2.921" width="0.1524" layer="21"/>
-<pad name="1" x="1.905" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="0" y="1.905" drill="0.8128" shape="octagon"/>
-<pad name="3" x="-1.905" y="0" drill="0.8128" shape="octagon"/>
-<text x="3.302" y="0.381" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="3.302" y="-1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="1.016" y="-1.143" size="1.27" layer="51" ratio="10">1</text>
-<text x="-0.508" y="0.635" size="1.27" layer="51" ratio="10">2</text>
-<text x="-1.905" y="-1.27" size="1.27" layer="51" ratio="10">3</text>
-</package>
-<package name="TO202" urn="urn:adsk.eagle:footprint:28661/1" library_version="2">
-<description>&lt;b&gt;TO 202 horizontal&lt;/b&gt;</description>
-<wire x1="-5.207" y1="-1.27" x2="-5.207" y2="7.3406" width="0.127" layer="21"/>
-<wire x1="-3.5052" y1="7.3406" x2="-3.5052" y2="8.8138" width="0.127" layer="21"/>
-<wire x1="-3.5052" y1="8.8138" x2="-5.207" y2="8.8138" width="0.127" layer="21"/>
-<wire x1="5.207" y1="8.8138" x2="3.5052" y2="8.8138" width="0.127" layer="21"/>
-<wire x1="3.5052" y1="8.8138" x2="3.5052" y2="7.3406" width="0.127" layer="21"/>
-<wire x1="5.2578" y1="-1.27" x2="5.2578" y2="7.3406" width="0.127" layer="21"/>
-<wire x1="-5.207" y1="7.3406" x2="-3.5052" y2="7.3406" width="0.127" layer="21"/>
-<wire x1="3.8354" y1="-1.27" x2="3.8354" y2="7.3406" width="0.127" layer="21"/>
-<wire x1="-5.207" y1="-1.27" x2="3.8354" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="5.207" y1="21.717" x2="5.207" y2="8.8138" width="0.127" layer="21"/>
-<wire x1="5.207" y1="21.717" x2="-5.207" y2="21.717" width="0.127" layer="21"/>
-<wire x1="-5.207" y1="21.717" x2="-5.207" y2="8.8138" width="0.127" layer="21"/>
-<wire x1="-3.5052" y1="7.3406" x2="3.5052" y2="7.3406" width="0.127" layer="21"/>
-<wire x1="3.8354" y1="-1.27" x2="5.2578" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="3.8354" y1="7.3406" x2="5.2578" y2="7.3406" width="0.127" layer="21"/>
-<wire x1="3.5052" y1="7.3406" x2="3.8354" y2="7.3406" width="0.127" layer="21"/>
-<wire x1="-4.953" y1="-1.016" x2="4.953" y2="-1.016" width="0.0508" layer="21"/>
-<wire x1="4.953" y1="7.112" x2="4.953" y2="-1.016" width="0.0508" layer="21"/>
-<wire x1="4.953" y1="7.112" x2="-4.953" y2="7.112" width="0.0508" layer="21"/>
-<wire x1="-4.953" y1="-1.016" x2="-4.953" y2="7.112" width="0.0508" layer="21"/>
-<circle x="-3.7592" y="-0.2286" radius="0.4318" width="0" layer="21"/>
-<circle x="0" y="17.78" radius="1.651" width="0.127" layer="21"/>
-<circle x="0" y="17.78" radius="4.191" width="0" layer="42"/>
-<circle x="0" y="17.78" radius="4.191" width="0" layer="43"/>
-<pad name="1" x="-2.54" y="-5.08" drill="1.1176" shape="long" rot="R90"/>
-<pad name="2" x="0" y="-5.08" drill="1.1176" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="-5.08" drill="1.1176" shape="long" rot="R90"/>
-<text x="-2.54" y="4.318" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-4.445" y="2.159" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-2.54" y="-0.635" size="1.27" layer="21" ratio="10">1</text>
-<text x="-0.635" y="-0.635" size="1.27" layer="21" ratio="10">2</text>
-<text x="1.905" y="-0.635" size="1.27" layer="21" ratio="10">3</text>
-<rectangle x1="-0.635" y1="-2.54" x2="0.635" y2="-1.27" layer="21"/>
-<rectangle x1="1.905" y1="-2.54" x2="3.175" y2="-1.27" layer="21"/>
-<rectangle x1="-3.175" y1="-2.54" x2="-1.905" y2="-1.27" layer="21"/>
-<rectangle x1="2.159" y1="-3.429" x2="2.921" y2="-2.54" layer="21"/>
-<rectangle x1="2.159" y1="-5.08" x2="2.921" y2="-3.429" layer="51"/>
-<rectangle x1="-0.381" y1="-3.429" x2="0.381" y2="-2.54" layer="21"/>
-<rectangle x1="-2.921" y1="-3.429" x2="-2.159" y2="-2.54" layer="21"/>
-<rectangle x1="-0.381" y1="-5.08" x2="0.381" y2="-3.429" layer="51"/>
-<rectangle x1="-2.921" y1="-5.08" x2="-2.159" y2="-3.429" layer="51"/>
-<hole x="0" y="17.78" drill="3.302"/>
-</package>
-<package name="TO202V" urn="urn:adsk.eagle:footprint:28675/1" library_version="2">
+<package name="TO202V" urn="urn:adsk.eagle:footprint:28675/1" library_version="13" library_locally_modified="yes">
 <description>&lt;b&gt;TO 202 vertical&lt;/b&gt;</description>
 <wire x1="-4.826" y1="-4.7498" x2="2.794" y2="-4.7498" width="0.127" layer="21"/>
 <wire x1="-4.826" y1="-0.127" x2="4.8006" y2="-0.127" width="0.127" layer="21"/>
@@ -2689,212 +2523,7 @@ DIN A4, landscape with location and doc. field</description>
 <rectangle x1="-0.889" y1="-2.794" x2="0.889" y2="-2.286" layer="51"/>
 <rectangle x1="1.651" y1="-2.794" x2="3.429" y2="-2.286" layer="51"/>
 </package>
-<package name="SOT93" urn="urn:adsk.eagle:footprint:28665/1" library_version="2">
-<description>SOT-93&lt;p&gt;
-grid 5.45 mm</description>
-<wire x1="-7.62" y1="-6.35" x2="7.62" y2="-6.35" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="6.223" x2="7.62" y2="-6.35" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="6.223" x2="6.985" y2="6.223" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-6.35" x2="-7.62" y2="6.223" width="0.1524" layer="21"/>
-<wire x1="-6.985" y1="6.223" x2="-6.985" y2="6.985" width="0.1524" layer="21"/>
-<wire x1="-6.985" y1="6.223" x2="-7.62" y2="6.223" width="0.1524" layer="21"/>
-<wire x1="-6.985" y1="6.985" x2="-7.62" y2="6.985" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="6.985" x2="-7.62" y2="9.525" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="9.525" x2="-3.1242" y2="13.3096" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="6.223" x2="6.985" y2="6.985" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="6.223" x2="-6.985" y2="6.223" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="6.985" x2="7.62" y2="6.985" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="6.985" x2="7.62" y2="9.525" width="0.1524" layer="21"/>
-<wire x1="-6.985" y1="-5.715" x2="6.985" y2="-5.715" width="0.0508" layer="21"/>
-<wire x1="6.985" y1="5.715" x2="6.985" y2="-5.715" width="0.0508" layer="21"/>
-<wire x1="6.985" y1="5.715" x2="-6.985" y2="5.715" width="0.0508" layer="21"/>
-<wire x1="-6.985" y1="-5.715" x2="-6.985" y2="5.715" width="0.0508" layer="21"/>
-<wire x1="0" y1="14.605" x2="3.1431" y2="13.3031" width="0.1524" layer="21" curve="-45.000078"/>
-<wire x1="-3.1431" y1="13.3031" x2="0" y2="14.605" width="0.1524" layer="21" curve="-45.000078"/>
-<wire x1="7.62" y1="9.525" x2="3.1242" y2="13.335" width="0.1524" layer="21"/>
-<wire x1="6.985" y1="-5.715" x2="7.62" y2="-6.35" width="0.0508" layer="51"/>
-<wire x1="6.985" y1="5.715" x2="7.62" y2="6.35" width="0.0508" layer="51"/>
-<wire x1="-6.985" y1="5.715" x2="-7.62" y2="6.35" width="0.0508" layer="51"/>
-<wire x1="-6.985" y1="-5.715" x2="-7.62" y2="-6.35" width="0.0508" layer="51"/>
-<circle x="0" y="10.16" radius="2.159" width="0.1524" layer="21"/>
-<circle x="0" y="10.16" radius="5.08" width="0" layer="42"/>
-<circle x="0" y="10.16" radius="5.08" width="0" layer="43"/>
-<pad name="B" x="-5.461" y="-10.16" drill="1.397" shape="long" rot="R90"/>
-<pad name="C" x="0" y="-10.16" drill="1.397" shape="long" rot="R90"/>
-<pad name="E" x="5.461" y="-10.16" drill="1.397" shape="long" rot="R90"/>
-<text x="-5.08" y="2.54" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="0" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-6.477" y="6.604" size="1.016" layer="21" ratio="10">A20,3mm</text>
-<rectangle x1="-6.096" y1="-7.366" x2="-4.318" y2="-6.35" layer="21"/>
-<rectangle x1="4.318" y1="-7.366" x2="6.096" y2="-6.35" layer="21"/>
-<rectangle x1="-1.143" y1="-7.366" x2="1.143" y2="-6.35" layer="21"/>
-<rectangle x1="-6.096" y1="-8.128" x2="-4.826" y2="-6.35" layer="21"/>
-<rectangle x1="-0.635" y1="-8.128" x2="0.635" y2="-6.35" layer="21"/>
-<rectangle x1="4.826" y1="-8.128" x2="6.096" y2="-6.35" layer="21"/>
-<rectangle x1="-6.096" y1="-10.287" x2="-4.826" y2="-8.128" layer="51"/>
-<rectangle x1="-0.635" y1="-10.287" x2="0.635" y2="-8.128" layer="51"/>
-<rectangle x1="4.826" y1="-10.287" x2="6.096" y2="-8.128" layer="51"/>
-<hole x="0" y="10.16" drill="4.1148"/>
-</package>
-<package name="SOT93V" urn="urn:adsk.eagle:footprint:28676/1" library_version="2">
-<description>SOT-93&lt;p&gt;
-grid 5.45 mm</description>
-<wire x1="7.62" y1="-2.032" x2="3.429" y2="-2.032" width="0.1524" layer="51"/>
-<wire x1="3.429" y1="-2.032" x2="2.032" y2="-2.032" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="-2.032" x2="-2.032" y2="-2.032" width="0.1524" layer="51"/>
-<wire x1="-2.032" y1="-2.032" x2="-3.429" y2="-2.032" width="0.1524" layer="21"/>
-<wire x1="-3.429" y1="-2.032" x2="-7.62" y2="-2.032" width="0.1524" layer="51"/>
-<wire x1="-7.62" y1="0" x2="7.62" y2="0" width="0.1524" layer="21"/>
-<wire x1="-7.239" y1="-5.08" x2="7.239" y2="-5.08" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="0" x2="-7.62" y2="-2.032" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-2.032" x2="-7.239" y2="-5.08" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="0" x2="7.62" y2="-2.032" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="-2.032" x2="7.239" y2="-5.08" width="0.1524" layer="21"/>
-<pad name="B" x="-5.461" y="-2.54" drill="1.397" shape="long" rot="R90"/>
-<pad name="C" x="0" y="-2.54" drill="1.397" shape="long" rot="R90"/>
-<pad name="E" x="5.461" y="-2.54" drill="1.397" shape="long" rot="R90"/>
-<text x="-1.397" y="-6.858" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-7.62" y="-6.858" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<rectangle x1="-7.62" y1="-2.032" x2="7.62" y2="0" layer="51"/>
-</package>
-<package name="TO126" urn="urn:adsk.eagle:footprint:28660/1" library_version="2">
-<description>&lt;b&gt;TO 126 horizontal&lt;/b&gt;</description>
-<wire x1="-3.937" y1="-1.27" x2="-3.937" y2="9.144" width="0.127" layer="21"/>
-<wire x1="-3.937" y1="9.144" x2="3.937" y2="9.144" width="0.127" layer="21"/>
-<wire x1="3.937" y1="9.144" x2="3.937" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-3.937" y1="-1.27" x2="3.937" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="1.2393" y1="3.1591" x2="1.9493" y2="3.8858" width="0.127" layer="21" curve="25.67749"/>
-<wire x1="0.7687" y1="3.6188" x2="1.2393" y2="3.1591" width="0.127" layer="21"/>
-<wire x1="-0.7687" y1="3.6188" x2="-1.2393" y2="3.1591" width="0.127" layer="21"/>
-<wire x1="-1.4787" y1="4.3456" x2="-1.9493" y2="3.8858" width="0.127" layer="21"/>
-<wire x1="-1.9493" y1="3.8858" x2="-1.2393" y2="3.1591" width="0.127" layer="21" curve="25.67749"/>
-<wire x1="0.508" y1="6.6509" x2="0.508" y2="7.3088" width="0.127" layer="21"/>
-<wire x1="-0.508" y1="6.6509" x2="-0.508" y2="7.3088" width="0.127" layer="21"/>
-<wire x1="-0.508" y1="7.3088" x2="0.508" y2="7.3088" width="0.127" layer="21" curve="-25.679633"/>
-<wire x1="1.4787" y1="4.3456" x2="1.9493" y2="3.8858" width="0.127" layer="21"/>
-<circle x="-3.1242" y="-0.4826" radius="0.4318" width="0" layer="21"/>
-<circle x="0" y="5.08" radius="3.81" width="0" layer="42"/>
-<circle x="0" y="5.08" radius="3.81" width="0" layer="43"/>
-<circle x="0" y="5.08" radius="1.651" width="0.127" layer="21"/>
-<pad name="1" x="-2.286" y="-5.08" drill="1.1176" shape="long" rot="R90"/>
-<pad name="2" x="0" y="-5.08" drill="1.1176" shape="long" rot="R90"/>
-<pad name="3" x="2.286" y="-5.08" drill="1.1176" shape="long" rot="R90"/>
-<text x="-2.54" y="7.62" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.175" y="1.397" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-2.54" y="-0.889" size="1.27" layer="51" ratio="10">1</text>
-<text x="-0.508" y="-0.889" size="1.27" layer="51" ratio="10">2</text>
-<text x="1.778" y="-0.889" size="1.27" layer="51" ratio="10">3</text>
-<rectangle x1="-0.635" y1="-3.048" x2="0.635" y2="-1.27" layer="21"/>
-<rectangle x1="-2.667" y1="-3.429" x2="-1.905" y2="-1.27" layer="21"/>
-<rectangle x1="-2.667" y1="-5.207" x2="-1.905" y2="-3.429" layer="51"/>
-<rectangle x1="-0.381" y1="-3.429" x2="0.381" y2="-1.27" layer="21"/>
-<rectangle x1="-0.381" y1="-5.207" x2="0.381" y2="-3.429" layer="51"/>
-<rectangle x1="1.905" y1="-3.429" x2="2.667" y2="-1.27" layer="21"/>
-<rectangle x1="1.905" y1="-5.207" x2="2.667" y2="-3.429" layer="51"/>
-<hole x="0" y="5.08" drill="3.302"/>
-</package>
-<package name="TO126V" urn="urn:adsk.eagle:footprint:28677/1" library_version="2">
-<description>&lt;b&gt;TO 126 vertical&lt;/b&gt;</description>
-<wire x1="-3.937" y1="-0.127" x2="-3.937" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-3.937" y1="-1.27" x2="-3.683" y2="-2.794" width="0.127" layer="21"/>
-<wire x1="3.683" y1="-2.794" x2="3.937" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="3.937" y1="-1.27" x2="3.937" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="-3.683" y1="-2.794" x2="-2.794" y2="-2.794" width="0.127" layer="21"/>
-<wire x1="-2.794" y1="-2.794" x2="-1.778" y2="-2.794" width="0.127" layer="51"/>
-<wire x1="-1.778" y1="-2.794" x2="-0.508" y2="-2.794" width="0.127" layer="21"/>
-<wire x1="-0.508" y1="-2.794" x2="0.508" y2="-2.794" width="0.127" layer="51"/>
-<wire x1="0.508" y1="-2.794" x2="1.778" y2="-2.794" width="0.127" layer="21"/>
-<wire x1="1.778" y1="-2.794" x2="2.794" y2="-2.794" width="0.127" layer="51"/>
-<wire x1="2.794" y1="-2.794" x2="3.683" y2="-2.794" width="0.127" layer="21"/>
-<circle x="-3.175" y="-2.159" radius="0.4064" width="0.127" layer="51"/>
-<pad name="1" x="-2.286" y="-1.27" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="0" y="-1.27" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="2.286" y="-1.27" drill="1.016" shape="long" rot="R90"/>
-<text x="-3.9624" y="-4.5466" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.9878" y="-6.3246" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-2.54" y="-1.905" size="1.27" layer="51" ratio="10">1</text>
-<text x="-0.381" y="-1.905" size="1.27" layer="51" ratio="10">2</text>
-<text x="2.032" y="-1.905" size="1.27" layer="51" ratio="10">3</text>
-<rectangle x1="-3.937" y1="-0.381" x2="-3.175" y2="0" layer="21"/>
-<rectangle x1="-1.397" y1="-0.381" x2="-0.889" y2="0" layer="21"/>
-<rectangle x1="0.889" y1="-0.381" x2="1.397" y2="0" layer="21"/>
-<rectangle x1="3.175" y1="-0.381" x2="3.937" y2="0" layer="21"/>
-<rectangle x1="-3.175" y1="-0.381" x2="-1.397" y2="0" layer="51"/>
-<rectangle x1="-0.889" y1="-0.381" x2="0.889" y2="0" layer="51"/>
-<rectangle x1="1.397" y1="-0.381" x2="3.175" y2="0" layer="51"/>
-</package>
-<package name="TO218" urn="urn:adsk.eagle:footprint:28678/1" library_version="2">
-<description>&lt;b&gt;TO 218 horizontal&lt;/b&gt;</description>
-<wire x1="-7.62" y1="-6.35" x2="7.62" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="7.62" y1="6.223" x2="7.62" y2="0" width="0.127" layer="21"/>
-<wire x1="7.62" y1="0" x2="7.62" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-3.81" x2="7.62" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="-6.35" x2="-7.62" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="-3.81" x2="-7.62" y2="0" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="0" x2="-7.62" y2="6.223" width="0.127" layer="21"/>
-<wire x1="7.62" y1="6.223" x2="-7.62" y2="6.223" width="0.127" layer="21"/>
-<wire x1="6.985" y1="5.715" x2="-6.985" y2="5.715" width="0.0508" layer="21"/>
-<wire x1="6.985" y1="0.508" x2="6.985" y2="5.715" width="0.0508" layer="21"/>
-<wire x1="-6.985" y1="-5.715" x2="6.985" y2="-5.715" width="0.0508" layer="21"/>
-<wire x1="7.62" y1="12.065" x2="5.08" y2="14.605" width="0.127" layer="21"/>
-<wire x1="7.62" y1="12.065" x2="7.62" y2="6.223" width="0.127" layer="21"/>
-<wire x1="5.08" y1="14.605" x2="-5.08" y2="14.605" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="12.065" x2="-5.08" y2="14.605" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="12.065" x2="-7.62" y2="6.223" width="0.127" layer="21"/>
-<wire x1="7.62" y1="0" x2="7.62" y2="-3.81" width="0.127" layer="21" curve="180"/>
-<wire x1="6.985" y1="-5.715" x2="6.985" y2="-4.318" width="0.0508" layer="21"/>
-<wire x1="6.9522" y1="0.4991" x2="6.9851" y2="-4.3178" width="0.0508" layer="21" curve="149.733471"/>
-<wire x1="-7.62" y1="0" x2="-7.62" y2="-3.81" width="0.127" layer="21" curve="-180"/>
-<wire x1="-6.985" y1="-5.715" x2="-6.985" y2="-4.318" width="0.0508" layer="21"/>
-<wire x1="-6.985" y1="0.508" x2="-6.985" y2="5.715" width="0.0508" layer="21"/>
-<wire x1="-6.985" y1="-4.318" x2="-6.985" y2="0.508" width="0.0508" layer="21" curve="150.512874"/>
-<circle x="0" y="10.16" radius="2.159" width="0.127" layer="21"/>
-<circle x="0" y="10.16" radius="5.08" width="0" layer="42"/>
-<circle x="0" y="10.16" radius="5.08" width="0" layer="43"/>
-<pad name="1" x="-5.461" y="-10.16" drill="1.397" shape="long" rot="R90"/>
-<pad name="2" x="0" y="-10.16" drill="1.397" shape="long" rot="R90"/>
-<pad name="3" x="5.461" y="-10.16" drill="1.397" shape="long" rot="R90"/>
-<text x="-5.08" y="2.54" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="0" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-5.08" y="-5.08" size="1.27" layer="21" ratio="10">1</text>
-<text x="-0.635" y="-5.08" size="1.27" layer="21" ratio="10">2</text>
-<text x="4.445" y="-5.08" size="1.27" layer="21" ratio="10">3</text>
-<rectangle x1="-6.096" y1="-7.366" x2="-4.318" y2="-6.35" layer="21"/>
-<rectangle x1="4.318" y1="-7.366" x2="6.096" y2="-6.35" layer="21"/>
-<rectangle x1="-1.143" y1="-7.366" x2="1.143" y2="-6.35" layer="21"/>
-<rectangle x1="-6.096" y1="-8.128" x2="-4.826" y2="-6.35" layer="21"/>
-<rectangle x1="-6.096" y1="-10.287" x2="-4.826" y2="-8.128" layer="51"/>
-<rectangle x1="-0.635" y1="-8.128" x2="0.635" y2="-6.35" layer="21"/>
-<rectangle x1="4.826" y1="-8.128" x2="6.096" y2="-6.35" layer="21"/>
-<rectangle x1="-0.635" y1="-10.287" x2="0.635" y2="-8.128" layer="51"/>
-<rectangle x1="4.826" y1="-10.287" x2="6.096" y2="-8.128" layer="51"/>
-<hole x="0" y="10.16" drill="4.1148"/>
-</package>
-<package name="TO218V" urn="urn:adsk.eagle:footprint:28679/1" library_version="2">
-<description>&lt;b&gt;TO 218 vertical&lt;/b&gt;</description>
-<wire x1="-6.985" y1="-5.08" x2="6.985" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="6.985" y1="-5.08" x2="7.366" y2="-4.699" width="0.127" layer="21"/>
-<wire x1="7.366" y1="-4.699" x2="7.62" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="-6.985" y1="-5.08" x2="-7.366" y2="-4.699" width="0.127" layer="21"/>
-<wire x1="-7.366" y1="-4.699" x2="-7.62" y2="-1.524" width="0.127" layer="21"/>
-<pad name="1" x="-5.461" y="-3.175" drill="1.397" shape="long" rot="R90"/>
-<pad name="2" x="0" y="-3.175" drill="1.397" shape="long" rot="R90"/>
-<pad name="3" x="5.461" y="-3.175" drill="1.397" shape="long" rot="R90"/>
-<text x="-7.62" y="-6.858" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.016" y="-6.858" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-6.096" y="-4.445" size="1.27" layer="51" ratio="10">1</text>
-<text x="-0.635" y="-4.445" size="1.27" layer="51" ratio="10">2</text>
-<text x="4.826" y="-4.445" size="1.27" layer="51" ratio="10">3</text>
-<rectangle x1="-7.874" y1="-1.143" x2="7.874" y2="0" layer="21"/>
-<rectangle x1="-3.556" y1="-2.032" x2="-1.905" y2="-1.143" layer="21"/>
-<rectangle x1="1.905" y1="-2.032" x2="3.556" y2="-1.143" layer="21"/>
-<rectangle x1="-7.874" y1="-2.032" x2="-7.239" y2="-1.143" layer="21"/>
-<rectangle x1="7.239" y1="-2.032" x2="7.874" y2="-1.143" layer="21"/>
-<rectangle x1="3.556" y1="-2.032" x2="7.239" y2="-1.143" layer="51"/>
-<rectangle x1="-7.239" y1="-2.032" x2="-3.556" y2="-1.143" layer="51"/>
-<rectangle x1="-1.905" y1="-2.032" x2="1.905" y2="-1.143" layer="51"/>
-</package>
-<package name="TO220" urn="urn:adsk.eagle:footprint:28659/1" library_version="2">
+<package name="TO220" urn="urn:adsk.eagle:footprint:28659/1" library_version="13" library_locally_modified="yes">
 <description>&lt;b&gt;TO 220 horizontal&lt;/b&gt;</description>
 <wire x1="-5.207" y1="-1.27" x2="5.207" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="5.207" y1="14.605" x2="-5.207" y2="14.605" width="0.127" layer="21"/>
@@ -2935,7 +2564,7 @@ grid 5.45 mm</description>
 <rectangle x1="2.159" y1="-6.604" x2="2.921" y2="-4.699" layer="51"/>
 <hole x="0" y="11.176" drill="3.302"/>
 </package>
-<package name="TO220V" urn="urn:adsk.eagle:footprint:28680/1" library_version="2">
+<package name="TO220V" urn="urn:adsk.eagle:footprint:28680/1" library_version="13" library_locally_modified="yes">
 <description>&lt;b&gt;TO 220 vertical&lt;/b&gt;</description>
 <wire x1="5.08" y1="-1.143" x2="4.953" y2="-4.064" width="0.127" layer="21"/>
 <wire x1="4.699" y1="-4.318" x2="4.953" y2="-4.064" width="0.127" layer="21"/>
@@ -2957,46 +2586,7 @@ grid 5.45 mm</description>
 <rectangle x1="-0.889" y1="-1.27" x2="0.889" y2="-0.762" layer="51"/>
 <rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
 </package>
-<package name="TO225AA" urn="urn:adsk.eagle:footprint:28668/1" library_version="2">
-<description>&lt;b&gt;TO-225&lt;/b&gt;&lt;p&gt;
-grid 2.54 mm, vertical</description>
-<wire x1="-3.4925" y1="-6.985" x2="-3.4925" y2="3.81" width="0.127" layer="21"/>
-<wire x1="-3.4925" y1="3.81" x2="3.4925" y2="3.81" width="0.127" layer="21"/>
-<wire x1="3.4925" y1="3.81" x2="3.4925" y2="-6.985" width="0.127" layer="21"/>
-<wire x1="-3.4925" y1="-6.985" x2="3.4925" y2="-6.985" width="0.127" layer="21"/>
-<wire x1="-2.381" y1="-8.096" x2="-2.381" y2="-9.525" width="0.4064" layer="21"/>
-<wire x1="0" y1="-7.779" x2="0" y2="-9.525" width="0.4064" layer="21"/>
-<wire x1="2.3813" y1="-8.0963" x2="2.381" y2="-9.525" width="0.4064" layer="21"/>
-<wire x1="-2.54" y1="3.175" x2="-2.54" y2="-3.334" width="0.127" layer="51"/>
-<wire x1="-2.54" y1="-3.334" x2="2.54" y2="-3.334" width="0.127" layer="51"/>
-<wire x1="2.54" y1="-3.334" x2="2.54" y2="3.175" width="0.127" layer="51"/>
-<wire x1="2.54" y1="3.175" x2="-2.54" y2="3.175" width="0.127" layer="51"/>
-<wire x1="-1.949" y1="1.194" x2="-1.2391" y2="1.9206" width="0.127" layer="21" curve="-25.674852"/>
-<wire x1="-0.769" y1="1.461" x2="-1.239" y2="1.921" width="0.127" layer="21"/>
-<wire x1="0.769" y1="1.461" x2="1.239" y2="1.921" width="0.127" layer="21"/>
-<wire x1="1.479" y1="0.734" x2="1.949" y2="1.194" width="0.127" layer="21"/>
-<wire x1="1.239" y1="1.921" x2="1.949" y2="1.1944" width="0.127" layer="21" curve="-25.674073"/>
-<wire x1="-0.508" y1="-1.571" x2="-0.508" y2="-2.229" width="0.127" layer="21"/>
-<wire x1="0.508" y1="-1.571" x2="0.508" y2="-2.229" width="0.127" layer="21"/>
-<wire x1="-0.508" y1="-2.229" x2="0.508" y2="-2.229" width="0.127" layer="21" curve="25.678519"/>
-<wire x1="-1.479" y1="0.734" x2="-1.949" y2="1.194" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="3.81" width="0" layer="42"/>
-<circle x="0" y="0" radius="3.81" width="0" layer="43"/>
-<circle x="0" y="0" radius="1.651" width="0.127" layer="21"/>
-<pad name="1" x="-2.3813" y="-11.43" drill="0.8128" shape="long" rot="R90"/>
-<pad name="2" x="0" y="-11.43" drill="0.8128" shape="long" rot="R90"/>
-<pad name="3" x="2.3813" y="-11.43" drill="0.8128" shape="long" rot="R90"/>
-<text x="-2.6988" y="-6.6675" size="1.27" layer="51">1</text>
-<text x="-0.4763" y="-6.6675" size="1.27" layer="51">2</text>
-<text x="1.905" y="-6.6675" size="1.27" layer="51">3</text>
-<text x="3.0163" y="5.3975" size="1.27" layer="25" ratio="10" rot="R180">&gt;NAME</text>
-<text x="3.4925" y="-3.7783" size="1.27" layer="27" ratio="10" rot="R180">&gt;VALUE</text>
-<rectangle x1="-2.6988" y1="-8.255" x2="-2.0638" y2="-6.985" layer="21"/>
-<rectangle x1="2.0638" y1="-8.255" x2="2.6988" y2="-6.985" layer="21"/>
-<rectangle x1="-0.3175" y1="-7.9375" x2="0.3175" y2="-6.985" layer="21"/>
-<hole x="0" y="0" drill="3.302"/>
-</package>
-<package name="TO39" urn="urn:adsk.eagle:footprint:28658/1" library_version="2">
+<package name="TO39" urn="urn:adsk.eagle:footprint:28658/1" library_version="13" library_locally_modified="yes">
 <description>&lt;b&gt;TO-39&lt;/b&gt;</description>
 <wire x1="-4.0386" y1="-3.5306" x2="-3.5052" y2="-2.9972" width="0.1524" layer="21"/>
 <wire x1="-2.9718" y1="-3.5306" x2="-3.5052" y2="-4.064" width="0.1524" layer="21"/>
@@ -3009,20 +2599,7 @@ grid 2.54 mm, vertical</description>
 <text x="-2.54" y="5.08" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.175" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="TO5" urn="urn:adsk.eagle:footprint:28657/1" library_version="2">
-<description>&lt;b&gt;TO 5&lt;/b&gt;</description>
-<wire x1="-4.0386" y1="-3.5306" x2="-3.5052" y2="-2.9972" width="0.127" layer="21"/>
-<wire x1="-2.9718" y1="-3.5306" x2="-3.5052" y2="-4.064" width="0.127" layer="21"/>
-<wire x1="-3.5052" y1="-4.064" x2="-4.0386" y2="-3.5306" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="4.572" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="3.8608" width="0.0508" layer="21"/>
-<pad name="1" x="0" y="-2.54" drill="0.8128" shape="octagon"/>
-<pad name="2" x="2.54" y="0" drill="0.8128" shape="octagon"/>
-<pad name="3" x="0" y="2.54" drill="0.8128" shape="octagon"/>
-<text x="-2.54" y="5.08" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.175" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="TO66" urn="urn:adsk.eagle:footprint:28653/1" library_version="2">
+<package name="TO66" urn="urn:adsk.eagle:footprint:28653/1" library_version="13" library_locally_modified="yes">
 <description>&lt;b&gt;TO-66&lt;/b&gt;</description>
 <wire x1="-3.501" y1="-7.895" x2="3.5012" y2="-7.895" width="0.1524" layer="21" curve="47.833229"/>
 <wire x1="-3.501" y1="7.895" x2="3.5012" y2="7.895" width="0.1524" layer="21" curve="-47.833229"/>
@@ -3046,7 +2623,7 @@ grid 2.54 mm, vertical</description>
 <text x="-5.08" y="1.905" size="1.27" layer="21" ratio="10">2</text>
 <text x="-5.08" y="-3.175" size="1.27" layer="21" ratio="10">1</text>
 </package>
-<package name="TO92" urn="urn:adsk.eagle:footprint:28654/1" library_version="2">
+<package name="TO92" urn="urn:adsk.eagle:footprint:28654/1" library_version="13" library_locally_modified="yes">
 <description>&lt;b&gt;TO 92&lt;/b&gt;</description>
 <wire x1="-2.0946" y1="-1.651" x2="-2.6549" y2="-0.254" width="0.127" layer="21" curve="-32.78104"/>
 <wire x1="-2.6549" y1="-0.254" x2="-0.7863" y2="2.5485" width="0.127" layer="21" curve="-78.318477"/>
@@ -3067,136 +2644,7 @@ grid 2.54 mm, vertical</description>
 <text x="-2.159" y="0" size="1.27" layer="51" ratio="10">3</text>
 <text x="1.143" y="0" size="1.27" layer="51" ratio="10">1</text>
 </package>
-<package name="TO92-EBC" urn="urn:adsk.eagle:footprint:28681/1" library_version="2">
-<description>&lt;b&gt;TO-92&lt;/b&gt; Pads In Line E B C from top&lt;p&gt;</description>
-<wire x1="-2.095" y1="-2.921" x2="2.095" y2="-2.921" width="0.127" layer="21"/>
-<wire x1="-2.413" y1="-0.1341" x2="2.413" y2="-0.1341" width="0.127" layer="21" curve="-129.583345"/>
-<wire x1="1.136" y1="-1.397" x2="-1.136" y2="-1.397" width="0.127" layer="51"/>
-<wire x1="-2.413" y1="-0.1341" x2="-2.664" y2="-1.397" width="0.127" layer="51" curve="27.937554"/>
-<wire x1="-2.664" y1="-1.397" x2="-2.413" y2="-2.4059" width="0.127" layer="51" curve="22.478763"/>
-<wire x1="-1.404" y1="-1.397" x2="-2.664" y2="-1.397" width="0.127" layer="51"/>
-<wire x1="-2.4135" y1="-2.4059" x2="-2.095" y2="-2.921" width="0.127" layer="21" curve="13.038528"/>
-<wire x1="-1.136" y1="-1.397" x2="-1.404" y2="-1.397" width="0.127" layer="21"/>
-<wire x1="2.413" y1="-2.4059" x2="2.664" y2="-1.397" width="0.127" layer="51" curve="22.478763"/>
-<wire x1="2.664" y1="-1.397" x2="2.413" y2="-0.1341" width="0.127" layer="51" curve="27.937554"/>
-<wire x1="2.664" y1="-1.397" x2="1.404" y2="-1.397" width="0.127" layer="51"/>
-<wire x1="1.404" y1="-1.397" x2="1.136" y2="-1.397" width="0.127" layer="21"/>
-<wire x1="2.095" y1="-2.921" x2="2.4247" y2="-2.3818" width="0.127" layer="21" curve="13.609443"/>
-<pad name="C" x="2.54" y="-1.27" drill="0.8128" shape="long" rot="R90"/>
-<pad name="E" x="-2.54" y="-1.27" drill="0.8128" shape="long" rot="R90"/>
-<pad name="B" x="0" y="-1.27" drill="0.8128" shape="long" rot="R90"/>
-<text x="-2.54" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.54" y="-4.572" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="TO92-E1" urn="urn:adsk.eagle:footprint:28682/1" library_version="2">
-<description>&lt;b&gt;TO-92&lt;/b&gt; Pads Triangle Reverse</description>
-<wire x1="-2.095" y1="-1.651" x2="-0.7869" y2="2.5484" width="0.127" layer="21" curve="-111.097684"/>
-<wire x1="0.7869" y1="2.5484" x2="2.095" y2="-1.651" width="0.127" layer="21" curve="-111.097684"/>
-<wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.127" layer="21"/>
-<wire x1="-2.254" y1="-0.254" x2="-0.286" y2="-0.254" width="0.127" layer="51"/>
-<wire x1="-2.655" y1="-0.254" x2="-2.254" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="-0.286" y1="-0.254" x2="0.286" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="2.254" y1="-0.254" x2="2.655" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="0.286" y1="-0.254" x2="2.254" y2="-0.254" width="0.127" layer="51"/>
-<wire x1="-0.7864" y1="2.5484" x2="0.7864" y2="2.5484" width="0.127" layer="51" curve="-34.298964"/>
-<pad name="1" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="0" y="1.905" drill="0.8128" shape="octagon"/>
-<pad name="3" x="1.27" y="0" drill="0.8128" shape="octagon"/>
-<text x="3.175" y="0.635" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="3.175" y="-1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="TO92L" urn="urn:adsk.eagle:footprint:28683/1" library_version="2">
-<description>&lt;b&gt;TO-92&lt;/b&gt;&lt;p&gt;
-grid 5.08 mm</description>
-<wire x1="-1.1359" y1="2.413" x2="-0.127" y2="2.664" width="0.1524" layer="51" curve="-22.478763"/>
-<wire x1="-0.127" y1="2.664" x2="1.1359" y2="2.413" width="0.1524" layer="51" curve="-27.937554"/>
-<wire x1="-1.1359" y1="-2.413" x2="-0.127" y2="-2.664" width="0.1524" layer="51" curve="22.478763"/>
-<wire x1="-0.127" y1="-2.664" x2="1.1359" y2="-2.413" width="0.1524" layer="51" curve="27.937554"/>
-<wire x1="-1.651" y1="2.095" x2="-1.651" y2="-2.095" width="0.1524" layer="21"/>
-<wire x1="-0.127" y1="-1.404" x2="-0.127" y2="1.404" width="0.1524" layer="21"/>
-<wire x1="-0.127" y1="-2.664" x2="-0.127" y2="-1.404" width="0.1524" layer="51"/>
-<wire x1="-1.651" y1="-2.095" x2="-1.1118" y2="-2.4247" width="0.1524" layer="21" curve="13.609443"/>
-<wire x1="-0.127" y1="1.404" x2="-0.127" y2="2.664" width="0.1524" layer="51"/>
-<wire x1="-1.651" y1="2.095" x2="-1.1359" y2="2.4135" width="0.1524" layer="21" curve="-13.038528"/>
-<wire x1="2.413" y1="-1.1359" x2="2.413" y2="1.1359" width="0.1524" layer="51" curve="50.416655"/>
-<wire x1="1.1359" y1="-2.413" x2="2.413" y2="-1.1359" width="0.1524" layer="21" curve="39.583345"/>
-<wire x1="1.1359" y1="2.413" x2="2.413" y2="1.1359" width="0.1524" layer="21" curve="-39.583345"/>
-<pad name="1" x="0" y="-2.54" drill="0.8128" shape="long"/>
-<pad name="3" x="0" y="2.54" drill="0.8128" shape="long"/>
-<pad name="2" x="2.54" y="0" drill="0.8128" shape="long"/>
-<text x="-1.524" y="3.556" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.524" y="-4.953" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="TOP3" urn="urn:adsk.eagle:footprint:28664/1" library_version="2">
-<description>&lt;b&gt;TOP 3 horizontal&lt;/b&gt;</description>
-<wire x1="-7.874" y1="-1.778" x2="7.874" y2="-1.778" width="0.127" layer="21"/>
-<wire x1="7.874" y1="8.763" x2="7.874" y2="-1.778" width="0.127" layer="21"/>
-<wire x1="-7.874" y1="-1.778" x2="-7.874" y2="8.763" width="0.127" layer="21"/>
-<wire x1="-7.874" y1="8.763" x2="-7.874" y2="11.811" width="0.127" layer="21"/>
-<wire x1="-7.874" y1="11.811" x2="-3.1242" y2="15.8496" width="0.127" layer="21"/>
-<wire x1="7.874" y1="8.763" x2="-7.874" y2="8.763" width="0.127" layer="21"/>
-<wire x1="7.874" y1="8.763" x2="7.874" y2="11.811" width="0.127" layer="21"/>
-<wire x1="-7.366" y1="-1.27" x2="7.366" y2="-1.27" width="0.0508" layer="21"/>
-<wire x1="7.366" y1="8.255" x2="7.366" y2="-1.27" width="0.0508" layer="21"/>
-<wire x1="7.366" y1="8.255" x2="-7.366" y2="8.255" width="0.0508" layer="21"/>
-<wire x1="-7.366" y1="-1.27" x2="-7.366" y2="8.255" width="0.0508" layer="21"/>
-<wire x1="0" y1="17.145" x2="3.1431" y2="15.8431" width="0.127" layer="21" curve="-45.000078"/>
-<wire x1="-3.1431" y1="15.8431" x2="0" y2="17.145" width="0.127" layer="21" curve="-45.000078"/>
-<wire x1="7.874" y1="11.811" x2="3.1242" y2="15.875" width="0.127" layer="21"/>
-<circle x="0" y="12.7" radius="2.159" width="0.127" layer="21"/>
-<circle x="0" y="12.7" radius="5.08" width="0" layer="42"/>
-<circle x="0" y="12.7" radius="5.08" width="0" layer="43"/>
-<pad name="1" x="-5.588" y="-7.62" drill="1.397" shape="long" rot="R90"/>
-<pad name="2" x="0" y="-7.62" drill="1.397" shape="long" rot="R90"/>
-<pad name="3" x="5.588" y="-7.62" drill="1.397" shape="long" rot="R90"/>
-<text x="-5.08" y="5.08" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-7.366" y="9.144" size="0.9906" layer="21" ratio="12">A20,3mm</text>
-<text x="-5.715" y="-0.635" size="1.27" layer="51" ratio="10">1</text>
-<text x="-0.635" y="-0.635" size="1.27" layer="51" ratio="10">2</text>
-<text x="4.445" y="-0.635" size="1.27" layer="51" ratio="10">3</text>
-<rectangle x1="-6.223" y1="-3.81" x2="-3.81" y2="-1.778" layer="21"/>
-<rectangle x1="-1.397" y1="-3.81" x2="1.397" y2="-1.778" layer="21"/>
-<rectangle x1="3.81" y1="-3.81" x2="6.223" y2="-1.778" layer="21"/>
-<rectangle x1="-6.223" y1="-5.715" x2="-4.953" y2="-3.81" layer="21"/>
-<rectangle x1="-6.223" y1="-7.62" x2="-4.953" y2="-5.715" layer="51"/>
-<rectangle x1="-0.635" y1="-5.715" x2="0.635" y2="-3.81" layer="21"/>
-<rectangle x1="-0.635" y1="-7.62" x2="0.635" y2="-5.715" layer="51"/>
-<rectangle x1="4.953" y1="-5.715" x2="6.223" y2="-3.81" layer="21"/>
-<rectangle x1="4.953" y1="-7.62" x2="6.223" y2="-5.715" layer="51"/>
-<hole x="0" y="12.7" drill="4.1148"/>
-</package>
-<package name="TOP3V" urn="urn:adsk.eagle:footprint:28684/1" library_version="2">
-<description>&lt;b&gt;TOP 3 vertical&lt;/b&gt;</description>
-<wire x1="6.985" y1="-5.08" x2="7.366" y2="-4.699" width="0.127" layer="21"/>
-<wire x1="7.366" y1="-4.699" x2="7.493" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="-6.985" y1="-5.08" x2="-7.366" y2="-4.699" width="0.127" layer="21"/>
-<wire x1="-7.366" y1="-4.699" x2="-7.493" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="6.985" y1="-5.08" x2="6.35" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="6.35" y1="-5.08" x2="4.572" y2="-5.08" width="0.127" layer="51"/>
-<wire x1="4.572" y1="-5.08" x2="0.889" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="0.889" y1="-5.08" x2="-0.889" y2="-5.08" width="0.127" layer="51"/>
-<wire x1="-0.889" y1="-5.08" x2="-4.572" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="-4.572" y1="-5.08" x2="-6.35" y2="-5.08" width="0.127" layer="51"/>
-<wire x1="-6.35" y1="-5.08" x2="-6.985" y2="-5.08" width="0.127" layer="21"/>
-<pad name="B" x="-5.461" y="-3.175" drill="1.397" shape="long" rot="R90"/>
-<pad name="C" x="0" y="-3.175" drill="1.397" shape="long" rot="R90"/>
-<pad name="E" x="5.461" y="-3.175" drill="1.397" shape="long" rot="R90"/>
-<text x="-7.62" y="-6.858" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.524" y="-6.858" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-6.096" y="-4.445" size="1.27" layer="51" ratio="10">B</text>
-<text x="-0.635" y="-4.445" size="1.27" layer="51" ratio="10">C</text>
-<text x="4.826" y="-4.445" size="1.27" layer="51" ratio="10">E</text>
-<rectangle x1="-7.874" y1="-1.143" x2="7.874" y2="0" layer="21"/>
-<rectangle x1="-7.874" y1="-1.524" x2="-6.858" y2="-1.143" layer="21"/>
-<rectangle x1="-4.064" y1="-1.524" x2="-1.397" y2="-1.143" layer="21"/>
-<rectangle x1="1.397" y1="-1.524" x2="4.064" y2="-1.143" layer="21"/>
-<rectangle x1="6.858" y1="-1.524" x2="7.874" y2="-1.143" layer="21"/>
-<rectangle x1="-6.858" y1="-1.524" x2="-4.064" y2="-1.143" layer="51"/>
-<rectangle x1="-1.397" y1="-1.524" x2="1.397" y2="-1.143" layer="51"/>
-<rectangle x1="4.064" y1="-1.524" x2="6.858" y2="-1.143" layer="51"/>
-</package>
-<package name="SOT23-BEC" urn="urn:adsk.eagle:footprint:28685/1" library_version="2">
+<package name="SOT23-BEC" urn="urn:adsk.eagle:footprint:28685/1" library_version="13" library_locally_modified="yes">
 <description>TO-236 ITT Intermetall</description>
 <wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.127" layer="51"/>
 <wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.127" layer="51"/>
@@ -3211,7 +2659,7 @@ grid 5.08 mm</description>
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 </package>
-<package name="SOT23-EBC" urn="urn:adsk.eagle:footprint:28686/1" library_version="2">
+<package name="SOT23-EBC" urn="urn:adsk.eagle:footprint:28686/1" library_version="13" library_locally_modified="yes">
 <description>&lt;b&gt;SOT-23 (EBC)&lt;/b&gt;</description>
 <wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.127" layer="51"/>
 <wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.127" layer="51"/>
@@ -3226,7 +2674,7 @@ grid 5.08 mm</description>
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 </package>
-<package name="TO92-BCE" urn="urn:adsk.eagle:footprint:28687/1" library_version="2">
+<package name="TO92-BCE" urn="urn:adsk.eagle:footprint:28687/1" library_version="13" library_locally_modified="yes">
 <description>&lt;b&gt;TO-92&lt;/b&gt; Pads In Line B C E from top&lt;p&gt;</description>
 <wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.127" layer="21"/>
 <wire x1="-2.413" y1="1.1359" x2="2.413" y2="1.1359" width="0.127" layer="21" curve="-129.583345"/>
@@ -3247,7 +2695,7 @@ grid 5.08 mm</description>
 <text x="-2.54" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="TO92-CBE" urn="urn:adsk.eagle:footprint:28688/1" library_version="2">
+<package name="TO92-CBE" urn="urn:adsk.eagle:footprint:28688/1" library_version="13" library_locally_modified="yes">
 <description>&lt;b&gt;TO-92&lt;/b&gt; Pads In Line  C B E from top&lt;p&gt;</description>
 <wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.127" layer="21"/>
 <wire x1="-2.413" y1="1.1359" x2="2.413" y2="1.1359" width="0.127" layer="21" curve="-129.583345"/>
@@ -3268,7 +2716,7 @@ grid 5.08 mm</description>
 <text x="-2.54" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="TO92-BEC" urn="urn:adsk.eagle:footprint:28689/1" library_version="2">
+<package name="TO92-BEC" urn="urn:adsk.eagle:footprint:28689/1" library_version="13" library_locally_modified="yes">
 <description>&lt;b&gt;TO-92&lt;/b&gt; Pads In Line  B E C from top&lt;p&gt;</description>
 <wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.127" layer="21"/>
 <wire x1="-2.413" y1="1.1359" x2="2.413" y2="1.1359" width="0.127" layer="21" curve="-129.583345"/>
@@ -3289,7 +2737,7 @@ grid 5.08 mm</description>
 <text x="-2.54" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="TO92-CEB" urn="urn:adsk.eagle:footprint:28690/1" library_version="2">
+<package name="TO92-CEB" urn="urn:adsk.eagle:footprint:28690/1" library_version="13" library_locally_modified="yes">
 <description>&lt;b&gt;TO-92&lt;/b&gt; Pads In Line C E B from top&lt;p&gt;</description>
 <wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.127" layer="21"/>
 <wire x1="-2.413" y1="1.1359" x2="2.413" y2="1.1359" width="0.127" layer="21" curve="-129.583345"/>
@@ -3310,7 +2758,7 @@ grid 5.08 mm</description>
 <text x="-2.54" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="SC59-BEC" urn="urn:adsk.eagle:footprint:28691/1" library_version="2">
+<package name="SC59-BEC" urn="urn:adsk.eagle:footprint:28691/1" library_version="13" library_locally_modified="yes">
 <description>SC59 (SOT23) Motorola</description>
 <wire x1="1.4224" y1="0.8604" x2="1.4224" y2="-0.8604" width="0.127" layer="51"/>
 <wire x1="1.4224" y1="-0.8604" x2="-1.4224" y2="-0.8604" width="0.127" layer="51"/>
@@ -3325,7 +2773,7 @@ grid 5.08 mm</description>
 <rectangle x1="0.7112" y1="-1.4954" x2="1.1684" y2="-0.9112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.4954" x2="-0.7112" y2="-0.9112" layer="51"/>
 </package>
-<package name="SOT89-BCE" urn="urn:adsk.eagle:footprint:28692/1" library_version="2">
+<package name="SOT89-BCE" urn="urn:adsk.eagle:footprint:28692/1" library_version="13" library_locally_modified="yes">
 <description>SOT98 Basis Collector Emitter</description>
 <wire x1="2.235" y1="-1.245" x2="-2.235" y2="-1.245" width="0.127" layer="51"/>
 <wire x1="2.235" y1="1.219" x2="2.235" y2="-1.245" width="0.127" layer="51"/>
@@ -3359,7 +2807,7 @@ grid 5.08 mm</description>
 <vertex x="-0.7874" y="1.2954"/>
 </polygon>
 </package>
-<package name="SOT37" urn="urn:adsk.eagle:footprint:28693/1" library_version="2">
+<package name="SOT37" urn="urn:adsk.eagle:footprint:28693/1" library_version="13" library_locally_modified="yes">
 <description>&lt;b&gt;SOT-37&lt;/b&gt;&lt;p&gt;
 Motorola CASE 317A-01 ISSUE B&lt;br&gt;
 http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
@@ -3429,7 +2877,7 @@ http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
 <rectangle x1="-0.508" y1="2.413" x2="0.508" y2="2.794" layer="21"/>
 <hole x="0" y="0" drill="5.08"/>
 </package>
-<package name="TO92-ECB" urn="urn:adsk.eagle:footprint:28694/1" library_version="2">
+<package name="TO92-ECB" urn="urn:adsk.eagle:footprint:28694/1" library_version="13" library_locally_modified="yes">
 <description>&lt;b&gt;TO-92&lt;/b&gt; Pads In Line E C B from top&lt;p&gt;</description>
 <wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.127" layer="21"/>
 <wire x1="-2.413" y1="1.1359" x2="2.413" y2="1.1359" width="0.127" layer="21" curve="-129.583345"/>
@@ -3450,7 +2898,7 @@ http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
 <text x="-2.54" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="SOT223" urn="urn:adsk.eagle:footprint:28695/1" library_version="2">
+<package name="SOT223" urn="urn:adsk.eagle:footprint:28695/1" library_version="13" library_locally_modified="yes">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
 <wire x1="3.2766" y1="1.778" x2="3.2766" y2="-1.778" width="0.2032" layer="21"/>
 <wire x1="3.2766" y1="-1.778" x2="-3.2766" y2="-1.778" width="0.2032" layer="21"/>
@@ -3477,197 +2925,124 @@ http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="TO3" urn="urn:adsk.eagle:package:28727/2" type="model" library_version="2">
-<description>TO-3</description>
+<package3d name="LINX" urn="urn:adsk.eagle:package:2160680/2" type="box" library_version="13" library_locally_modified="yes">
 <packageinstances>
-<packageinstance name="TO3"/>
+<packageinstance name="CR2032-LINX"/>
 </packageinstances>
 </package3d>
-<package3d name="TO18" urn="urn:adsk.eagle:package:28728/1" type="box" library_version="2">
-<description>TO 18</description>
+<package3d name="CR2032-THRU" urn="urn:adsk.eagle:package:2160679/1" type="box" library_version="13" library_locally_modified="yes">
 <packageinstances>
-<packageinstance name="TO18"/>
+<packageinstance name="CR2032-THRU"/>
 </packageinstances>
 </package3d>
-<package3d name="TO18-" urn="urn:adsk.eagle:package:28739/1" type="box" library_version="2">
-<description>TO-18</description>
+<package3d name="CR2032-SMD" urn="urn:adsk.eagle:package:2160678/1" type="box" library_version="13" library_locally_modified="yes">
 <packageinstances>
-<packageinstance name="TO18-"/>
+<packageinstance name="CR2032-SMD"/>
 </packageinstances>
 </package3d>
-<package3d name="TO202" urn="urn:adsk.eagle:package:28734/1" type="box" library_version="2">
-<description>TO 202 horizontal</description>
-<packageinstances>
-<packageinstance name="TO202"/>
-</packageinstances>
-</package3d>
-<package3d name="TO202V" urn="urn:adsk.eagle:package:28741/1" type="box" library_version="2">
-<description>TO 202 vertical</description>
-<packageinstances>
-<packageinstance name="TO202V"/>
-</packageinstances>
-</package3d>
-<package3d name="SOT93" urn="urn:adsk.eagle:package:28736/1" type="box" library_version="2">
-<description>SOT-93
-grid 5.45 mm</description>
-<packageinstances>
-<packageinstance name="SOT93"/>
-</packageinstances>
-</package3d>
-<package3d name="SOT93V" urn="urn:adsk.eagle:package:28764/1" type="box" library_version="2">
-<description>SOT-93
-grid 5.45 mm</description>
-<packageinstances>
-<packageinstance name="SOT93V"/>
-</packageinstances>
-</package3d>
-<package3d name="TO126" urn="urn:adsk.eagle:package:28732/1" type="box" library_version="2">
-<description>TO 126 horizontal</description>
-<packageinstances>
-<packageinstance name="TO126"/>
-</packageinstances>
-</package3d>
-<package3d name="TO126V" urn="urn:adsk.eagle:package:28743/1" type="box" library_version="2">
-<description>TO 126 vertical</description>
-<packageinstances>
-<packageinstance name="TO126V"/>
-</packageinstances>
-</package3d>
-<package3d name="TO218" urn="urn:adsk.eagle:package:28744/1" type="box" library_version="2">
-<description>TO 218 horizontal</description>
-<packageinstances>
-<packageinstance name="TO218"/>
-</packageinstances>
-</package3d>
-<package3d name="TO218V" urn="urn:adsk.eagle:package:28745/1" type="box" library_version="2">
-<description>TO 218 vertical</description>
-<packageinstances>
-<packageinstance name="TO218V"/>
-</packageinstances>
-</package3d>
-<package3d name="TO220" urn="urn:adsk.eagle:package:28731/1" type="box" library_version="2">
-<description>TO 220 horizontal</description>
-<packageinstances>
-<packageinstance name="TO220"/>
-</packageinstances>
-</package3d>
-<package3d name="TO220V" urn="urn:adsk.eagle:package:28746/2" type="model" library_version="2">
-<description>TO 220 vertical</description>
-<packageinstances>
-<packageinstance name="TO220V"/>
-</packageinstances>
-</package3d>
-<package3d name="TO225AA" urn="urn:adsk.eagle:package:28737/1" type="box" library_version="2">
-<description>TO-225
-grid 2.54 mm, vertical</description>
-<packageinstances>
-<packageinstance name="TO225AA"/>
-</packageinstances>
-</package3d>
-<package3d name="TO39" urn="urn:adsk.eagle:package:28730/1" type="box" library_version="2">
-<description>TO-39</description>
-<packageinstances>
-<packageinstance name="TO39"/>
-</packageinstances>
-</package3d>
-<package3d name="TO5" urn="urn:adsk.eagle:package:28729/1" type="box" library_version="2">
-<description>TO 5</description>
-<packageinstances>
-<packageinstance name="TO5"/>
-</packageinstances>
-</package3d>
-<package3d name="TO66" urn="urn:adsk.eagle:package:28726/1" type="box" library_version="2">
-<description>TO-66</description>
-<packageinstances>
-<packageinstance name="TO66"/>
-</packageinstances>
-</package3d>
-<package3d name="TO92" urn="urn:adsk.eagle:package:28725/1" type="box" library_version="2">
-<description>TO 92</description>
-<packageinstances>
-<packageinstance name="TO92"/>
-</packageinstances>
-</package3d>
-<package3d name="TO92-EBC" urn="urn:adsk.eagle:package:28763/2" type="model" library_version="2">
+<package3d name="TO92-EBC" urn="urn:adsk.eagle:package:28763/2" type="model" library_version="13" library_locally_modified="yes">
 <description>TO-92 Pads In Line E B C from top</description>
 <packageinstances>
 <packageinstance name="TO92-EBC"/>
 </packageinstances>
 </package3d>
-<package3d name="TO92-E1" urn="urn:adsk.eagle:package:28753/1" type="box" library_version="2">
-<description>TO-92 Pads Triangle Reverse</description>
+<package3d name="TO3" urn="urn:adsk.eagle:package:28727/2" type="model" library_version="13" library_locally_modified="yes">
+<description>TO-3</description>
 <packageinstances>
-<packageinstance name="TO92-E1"/>
+<packageinstance name="TO3"/>
 </packageinstances>
 </package3d>
-<package3d name="TO92L" urn="urn:adsk.eagle:package:28747/1" type="box" library_version="2">
-<description>TO-92
-grid 5.08 mm</description>
+<package3d name="TO18" urn="urn:adsk.eagle:package:28728/1" type="box" library_version="13" library_locally_modified="yes">
+<description>TO 18</description>
 <packageinstances>
-<packageinstance name="TO92L"/>
+<packageinstance name="TO18"/>
 </packageinstances>
 </package3d>
-<package3d name="TOP3" urn="urn:adsk.eagle:package:28735/1" type="box" library_version="2">
-<description>TOP 3 horizontal</description>
+<package3d name="TO202V" urn="urn:adsk.eagle:package:28741/1" type="box" library_version="13" library_locally_modified="yes">
+<description>TO 202 vertical</description>
 <packageinstances>
-<packageinstance name="TOP3"/>
+<packageinstance name="TO202V"/>
 </packageinstances>
 </package3d>
-<package3d name="TOP3V" urn="urn:adsk.eagle:package:28768/1" type="box" library_version="2">
-<description>TOP 3 vertical</description>
+<package3d name="TO220" urn="urn:adsk.eagle:package:28731/1" type="box" library_version="13" library_locally_modified="yes">
+<description>TO 220 horizontal</description>
 <packageinstances>
-<packageinstance name="TOP3V"/>
+<packageinstance name="TO220"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT23-BEC" urn="urn:adsk.eagle:package:28748/2" type="model" library_version="2">
+<package3d name="TO220V" urn="urn:adsk.eagle:package:28746/2" type="model" library_version="13" library_locally_modified="yes">
+<description>TO 220 vertical</description>
+<packageinstances>
+<packageinstance name="TO220V"/>
+</packageinstances>
+</package3d>
+<package3d name="TO39" urn="urn:adsk.eagle:package:28730/1" type="box" library_version="13" library_locally_modified="yes">
+<description>TO-39</description>
+<packageinstances>
+<packageinstance name="TO39"/>
+</packageinstances>
+</package3d>
+<package3d name="TO66" urn="urn:adsk.eagle:package:28726/1" type="box" library_version="13" library_locally_modified="yes">
+<description>TO-66</description>
+<packageinstances>
+<packageinstance name="TO66"/>
+</packageinstances>
+</package3d>
+<package3d name="TO92" urn="urn:adsk.eagle:package:28725/1" type="box" library_version="13" library_locally_modified="yes">
+<description>TO 92</description>
+<packageinstances>
+<packageinstance name="TO92"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT23-BEC" urn="urn:adsk.eagle:package:28748/2" type="model" library_version="13" library_locally_modified="yes">
 <description>TO-236 ITT Intermetall</description>
 <packageinstances>
 <packageinstance name="SOT23-BEC"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT23-EBC" urn="urn:adsk.eagle:package:28750/2" type="model" library_version="2">
+<package3d name="SOT23-EBC" urn="urn:adsk.eagle:package:28750/2" type="model" library_version="13" library_locally_modified="yes">
 <description>SOT-23 (EBC)</description>
 <packageinstances>
 <packageinstance name="SOT23-EBC"/>
 </packageinstances>
 </package3d>
-<package3d name="TO92-BCE" urn="urn:adsk.eagle:package:28749/4" type="model" library_version="2">
+<package3d name="TO92-BCE" urn="urn:adsk.eagle:package:28749/4" type="model" library_version="13" library_locally_modified="yes">
 <description>TO-92 Pads In Line B C E from top</description>
 <packageinstances>
 <packageinstance name="TO92-BCE"/>
 </packageinstances>
 </package3d>
-<package3d name="TO92-CBE" urn="urn:adsk.eagle:package:28751/2" type="model" library_version="2">
+<package3d name="TO92-CBE" urn="urn:adsk.eagle:package:28751/2" type="model" library_version="13" library_locally_modified="yes">
 <description>TO-92 Pads In Line  C B E from top</description>
 <packageinstances>
 <packageinstance name="TO92-CBE"/>
 </packageinstances>
 </package3d>
-<package3d name="TO92-BEC" urn="urn:adsk.eagle:package:28752/3" type="model" library_version="2">
+<package3d name="TO92-BEC" urn="urn:adsk.eagle:package:28752/3" type="model" library_version="13" library_locally_modified="yes">
 <description>TO-92 Pads In Line  B E C from top</description>
 <packageinstances>
 <packageinstance name="TO92-BEC"/>
 </packageinstances>
 </package3d>
-<package3d name="TO92-CEB" urn="urn:adsk.eagle:package:28757/2" type="model" library_version="2">
+<package3d name="TO92-CEB" urn="urn:adsk.eagle:package:28757/2" type="model" library_version="13" library_locally_modified="yes">
 <description>TO-92 Pads In Line C E B from top</description>
 <packageinstances>
 <packageinstance name="TO92-CEB"/>
 </packageinstances>
 </package3d>
-<package3d name="SC59-BEC" urn="urn:adsk.eagle:package:28754/2" type="model" library_version="2">
+<package3d name="SC59-BEC" urn="urn:adsk.eagle:package:28754/2" type="model" library_version="13" library_locally_modified="yes">
 <description>SC59 (SOT23) Motorola</description>
 <packageinstances>
 <packageinstance name="SC59-BEC"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT89-BCE" urn="urn:adsk.eagle:package:28755/2" type="model" library_version="2">
+<package3d name="SOT89-BCE" urn="urn:adsk.eagle:package:28755/2" type="model" library_version="13" library_locally_modified="yes">
 <description>SOT98 Basis Collector Emitter</description>
 <packageinstances>
 <packageinstance name="SOT89-BCE"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT37" urn="urn:adsk.eagle:package:28760/1" type="box" library_version="2">
+<package3d name="SOT37" urn="urn:adsk.eagle:package:28760/1" type="box" library_version="13" library_locally_modified="yes">
 <description>SOT-37
 Motorola CASE 317A-01 ISSUE B
 http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
@@ -3675,13 +3050,13 @@ http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
 <packageinstance name="SOT37"/>
 </packageinstances>
 </package3d>
-<package3d name="TO92-ECB" urn="urn:adsk.eagle:package:28756/2" type="model" library_version="2">
+<package3d name="TO92-ECB" urn="urn:adsk.eagle:package:28756/2" type="model" library_version="13" library_locally_modified="yes">
 <description>TO-92 Pads In Line E C B from top</description>
 <packageinstances>
 <packageinstance name="TO92-ECB"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT223" urn="urn:adsk.eagle:package:28758/2" type="model" library_version="2">
+<package3d name="SOT223" urn="urn:adsk.eagle:package:28758/2" type="model" library_version="13" library_locally_modified="yes">
 <description>Small Outline Transistor</description>
 <packageinstances>
 <packageinstance name="SOT223"/>
@@ -3689,7 +3064,44 @@ http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="NPN" urn="urn:adsk.eagle:symbol:28649/1" library_version="2">
+<symbol name="3V" urn="urn:adsk.eagle:symbol:2160630/1" locally_modified="yes" library_version="13" library_locally_modified="yes">
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="0" x2="-0.635" y2="-0.635" width="0.4064" layer="94"/>
+<wire x1="0" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<text x="-1.27" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.27" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="+" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="-" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="4.318" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="0.762" x2="4.318" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="-0.762" x2="5.08" y2="0" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="A4L-LOC" urn="urn:adsk.eagle:symbol:2160619/1" library_version="13" library_locally_modified="yes">
+<wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="19.05" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="3.81" x2="161.29" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="24.13" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="3.81" x2="246.38" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="8.89" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="8.89" x2="215.265" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="8.89" x2="215.265" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="8.89" x2="215.265" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="13.97" x2="215.265" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
+<text x="217.17" y="15.24" size="2.54" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="217.17" y="10.16" size="2.286" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="230.505" y="5.08" size="2.54" layer="94" font="vector">&gt;SHEET</text>
+<text x="216.916" y="4.953" size="2.54" layer="94" font="vector">Sheet:</text>
+<frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
+</symbol>
+<symbol name="NPN-1" library_version="13" library_locally_modified="yes">
 <wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
 <wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
@@ -3709,10 +3121,67 @@ http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="*-NPN-" urn="urn:adsk.eagle:component:28911/16" prefix="T" uservalue="yes" library_version="2">
+<deviceset name="CR2032" urn="urn:adsk.eagle:component:2160700/2" locally_modified="yes" uservalue="yes" library_version="13" library_locally_modified="yes">
+<gates>
+<gate name="G$1" symbol="3V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="LINX" package="CR2032-LINX">
+<connects>
+<connect gate="G$1" pin="+" pad="P$2+ P$3+"/>
+<connect gate="G$1" pin="-" pad="P$1-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2160680/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="THRUHOLE" package="CR2032-THRU">
+<connects>
+<connect gate="G$1" pin="+" pad="+1 +2"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2160679/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD" package="CR2032-SMD">
+<connects>
+<connect gate="G$1" pin="+" pad="+$1 +$2"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2160678/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A4L-LOC" urn="urn:adsk.eagle:component:2160690/1" prefix="FRAME" uservalue="yes" library_version="13" library_locally_modified="yes">
+<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
+DIN A4, landscape with location and doc. field</description>
+<gates>
+<gate name="G$1" symbol="A4L-LOC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="*-NPN-" prefix="T" uservalue="yes" library_version="13" library_locally_modified="yes">
 <description>NPN Transistror</description>
 <gates>
-<gate name="G$1" symbol="NPN" x="0" y="0"/>
+<gate name="G$1" symbol="NPN-1" x="0" y="0"/>
 </gates>
 <devices>
 <device name="TO3" package="TO3">
@@ -3764,32 +3233,6 @@ http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
 <technology name="BSX20"/>
 </technologies>
 </device>
-<device name="TO18-" package="TO18-">
-<connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28739/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TO202" package="TO202">
-<connects>
-<connect gate="G$1" pin="B" pad="3"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="E" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28734/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="TO202V" package="TO202V">
 <connects>
 <connect gate="G$1" pin="B" pad="3"/>
@@ -3798,84 +3241,6 @@ http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:28741/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SOT93" package="SOT93">
-<connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28736/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SOT93V" package="SOT93V">
-<connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28764/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TO126" package="TO126">
-<connects>
-<connect gate="G$1" pin="B" pad="3"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="E" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28732/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TO126V" package="TO126V">
-<connects>
-<connect gate="G$1" pin="B" pad="3"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="E" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28743/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TO218" package="TO218">
-<connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="E" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28744/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TO218V" package="TO218V">
-<connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="E" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28745/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -3909,21 +3274,6 @@ http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="TO225AA" package="TO225AA">
-<connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="E" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28737/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-<technology name="2N5655"/>
-<technology name="2N5657"/>
-</technologies>
-</device>
 <device name="TO39-EBC" package="TO39">
 <connects>
 <connect gate="G$1" pin="B" pad="2"/>
@@ -3953,19 +3303,6 @@ http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
 <technology name="BSX45-16"/>
 <technology name="BSX46-10"/>
 <technology name="BSX46-16"/>
-</technologies>
-</device>
-<device name="TO5" package="TO5">
-<connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28729/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 <device name="TO66" package="TO66">
@@ -4015,58 +3352,6 @@ http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
 <technology name="2N5089"/>
 <technology name="2N5550"/>
 <technology name="2N5551"/>
-</technologies>
-</device>
-<device name="TO92-E1" package="TO92-E1">
-<connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-<connect gate="G$1" pin="E" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28753/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TO92L" package="TO92L">
-<connects>
-<connect gate="G$1" pin="B" pad="2"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28747/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TOP3" package="TOP3">
-<connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="E" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28735/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TOP3V" package="TOP3V">
-<connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28768/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 <device name="SOT23-BEC" package="SOT23-BEC">
@@ -4323,7 +3608,7 @@ http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
 <part name="U$7" library="TinyTony_ShenzenReady" library_urn="urn:adsk.eagle:library:2159173" deviceset="CR2032" device="LINX" package3d_urn="urn:adsk.eagle:package:2160680/2"/>
 <part name="GND1" library="TinyTony_ShenzenReady" deviceset="GND" device=""/>
 <part name="GND2" library="TinyTony_ShenzenReady" deviceset="GND" device=""/>
-<part name="2N2222" library="transistor-neu-to92" library_urn="urn:adsk.eagle:library:397" deviceset="*-NPN-" device="TO92-EBC" package3d_urn="urn:adsk.eagle:package:28763/2" technology="2N2222"/>
+<part name="2N2222" library="TinyTony_ShenzenReady" library_urn="urn:adsk.eagle:library:2159173" deviceset="*-NPN-" device="TO92-EBC" package3d_urn="urn:adsk.eagle:package:28763/2" technology="2N2222"/>
 <part name="FRAME1" library="TinyTony_ShenzenReady" library_urn="urn:adsk.eagle:library:2159173" deviceset="A4L-LOC" device=""/>
 </parts>
 <sheets>
