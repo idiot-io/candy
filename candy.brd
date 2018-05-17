@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -22,7 +22,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -142,7 +142,7 @@
 </layers>
 <board>
 <plain>
-<circle x="12.7" y="12.7" radius="14" width="0.254" layer="20"/>
+<circle x="12.7" y="12.7" radius="14" width="0.1" layer="20"/>
 <rectangle x1="11.811" y1="-0.04241875" x2="13.843" y2="0.04241875" layer="200"/>
 <rectangle x1="11.049" y1="0.04241875" x2="14.605" y2="0.127" layer="200"/>
 <rectangle x1="10.541" y1="0.127" x2="15.113" y2="0.21158125" layer="200"/>
@@ -1584,9 +1584,10 @@
 <circle x="12.7" y="12.7" radius="10" width="0.1" layer="51"/>
 <rectangle x1="11.43" y1="13.716" x2="13.97" y2="14.732" layer="29"/>
 <rectangle x1="11.43" y1="13.716" x2="13.97" y2="14.732" layer="1"/>
-<rectangle x1="11.684" y1="-0.762" x2="14.224" y2="5.334" layer="1"/>
-<hole x="14.859" y="1.397" drill="0.65"/>
-<hole x="11.176" y="1.397" drill="0.65"/>
+<rectangle x1="11.684" y1="-0.762" x2="13.716" y2="5.334" layer="1"/>
+<hole x="14.351" y="0.254" drill="0.65"/>
+<hole x="11.049" y="0.254" drill="0.65"/>
+<rectangle x1="11.684" y1="-0.889" x2="13.716" y2="5.334" layer="29"/>
 </plain>
 <libraries>
 <library name="TinyTony_ShenzenReady">
@@ -1927,22 +1928,27 @@ Your Eurocircuits Team
 <contactref element="U$7" pad="+2"/>
 <contactref element="U$7" pad="+"/>
 <wire x1="5.61706875" y1="18.7985125" x2="5.61706875" y2="19.33306875" width="0.2032" layer="1"/>
-<wire x1="5.61706875" y1="19.33306875" x2="8.636" y2="22.352" width="0.3048" layer="1" curve="-90"/>
-<wire x1="8.636" y1="22.352" x2="17.808375" y2="22.352" width="0.3048" layer="1"/>
-<wire x1="17.808375" y1="22.352" x2="20.345959375" y2="19.814415625" width="0.3048" layer="1" curve="-90"/>
-<wire x1="3.81" y1="18.796" x2="5.61455625" y2="18.796" width="0.3048" layer="1"/>
+<wire x1="5.61706875" y1="19.33306875" x2="8.636" y2="22.352" width="0.6096" layer="1" curve="-90"/>
+<wire x1="8.636" y1="22.352" x2="17.808375" y2="22.352" width="0.6096" layer="1"/>
+<wire x1="17.808375" y1="22.352" x2="20.345959375" y2="19.814415625" width="0.6096" layer="1" curve="-90"/>
+<wire x1="3.81" y1="18.796" x2="5.61455625" y2="18.796" width="0.6096" layer="1"/>
 <wire x1="5.61455625" y1="18.796" x2="5.61706875" y2="18.7985125" width="0.2032" layer="1" curve="90"/>
-<wire x1="22.098" y1="18.542" x2="20.828" y2="18.542" width="0.3048" layer="1"/>
+<wire x1="22.098" y1="18.542" x2="20.828" y2="18.542" width="0.6096" layer="1"/>
 <wire x1="20.828" y1="18.542" x2="20.32" y2="19.05" width="0.2032" layer="1" curve="-90"/>
 <wire x1="20.32" y1="19.05" x2="20.32" y2="19.78845625" width="0.2032" layer="1"/>
 <wire x1="20.32" y1="19.78845625" x2="20.345959375" y2="19.814415625" width="0.2032" layer="1" curve="-90"/>
 <wire x1="0.889" y1="12.7" x2="0.889" y2="13.462" width="0.2032" layer="16"/>
 <via x="0.889" y="13.462" extent="1-16" drill="0.35"/>
-<wire x1="0.889" y1="13.462" x2="0.889" y2="15.875" width="0.3048" layer="1"/>
-<wire x1="0.889" y1="15.875" x2="3.81" y2="18.796" width="0.3048" layer="1" curve="-90"/>
+<wire x1="0.889" y1="13.462" x2="0.889" y2="15.875" width="0.6096" layer="1"/>
+<wire x1="0.889" y1="15.875" x2="3.81" y2="18.796" width="0.6096" layer="1" curve="-90"/>
 <via x="24.511" y="12.7" extent="1-16" drill="0.35"/>
-<wire x1="24.511" y1="12.7" x2="24.511" y2="16.129" width="0.3048" layer="1"/>
-<wire x1="24.511" y1="16.129" x2="22.098" y2="18.542" width="0.3048" layer="1" curve="90"/>
+<wire x1="24.511" y1="12.7" x2="24.511" y2="16.129" width="0.6096" layer="1"/>
+<wire x1="24.511" y1="16.129" x2="22.098" y2="18.542" width="0.6096" layer="1" curve="90"/>
+<wire x1="24.511" y1="12.7" x2="13.716" y2="1.651" width="0.6096" layer="1" curve="-90"/>
+<wire x1="11.684" y1="1.651" x2="0.762" y2="12.573" width="0.6096" layer="1" curve="-90"/>
+<wire x1="0.762" y1="12.573" x2="0.762" y2="13.335" width="0.6096" layer="1"/>
+<wire x1="0.762" y1="13.335" x2="0.889" y2="13.462" width="0.1524" layer="1" curve="-90"/>
+<wire x1="13.716" y1="1.651" x2="11.684" y2="1.651" width="0.1524" layer="1"/>
 </signal>
 </signals>
 </board>
