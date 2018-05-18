@@ -24,16 +24,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="6.2406964"
-     inkscape:cx="36.879047"
-     inkscape:cy="36.014176"
+     inkscape:zoom="4.9805753"
+     inkscape:cx="53.507874"
+     inkscape:cy="53.507874"
      inkscape:document-units="mm"
      inkscape:current-layer="g2544"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1080"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="956"
+     inkscape:window-height="1029"
+     inkscape:window-x="960"
+     inkscape:window-y="49"
      inkscape:window-maximized="0"
      borderlayer="true">
     <inkscape:grid
@@ -1748,6 +1748,29 @@
          d="m 581.32983,417.21846 c -1.41265,2.5362 -0.0692,1.91706 -0.47021,3.37675 -0.12252,0.44592 0.14567,1.32548 0.24227,1.98503 0.0996,0.68034 0.0164,1.43077 0.34778,2.03325 0.5148,0.936 1.36178,1.81982 2.3784,2.14786 1.02142,0.32958 2.26477,0.17176 3.20029,-0.35429 0.63736,-0.3584 1.08304,-1.05262 1.33899,-1.73757 0.33964,-0.90893 0.16157,-1.93566 0.17064,-2.90593 0.0134,-1.43472 0.07,-2.88669 -0.17194,-4.30092 -0.0549,-0.32109 -0.0428,-0.71933 -0.28786,-0.93392 -1.06495,-0.93236 -2.79162,-0.93712 -4.18761,-0.70336 -0.95838,0.16048 -2.09172,0.55101 -2.56075,1.3931 z"
          style="fill:#000001;fill-opacity:1;stroke:none;stroke-width:3.47019076px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111112px;line-height:1.25;font-family:'Noto Sans Telugu';-inkscape-font-specification:'Noto Sans Telugu';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="17.779999"
+       y="25.759998"
+       id="text2800"><tspan
+         sodipodi:role="line"
+         id="tspan2798"
+         x="17.779999"
+         y="26.843494"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Noto Sans Telugu';-inkscape-font-specification:'Noto Sans Telugu';stroke-width:0.26458332" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.41111112px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-2.1133044"
+       y="8.4486341"
+       id="text2804"
+       transform="matrix(-0.72152735,0.69238594,0.69238594,0.72152735,0,0)"><tspan
+         sodipodi:role="line"
+         x="-2.1133044"
+         y="8.4486341"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.26458332"
+         id="tspan2806">V1.0</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
