@@ -1,9 +1,12 @@
 # candy
 Electrodible lolliPCBpops
 
-![](https://i.imgur.com/f7DI716.png)
+![](https://i.imgur.com/f7DI716.png) ![](https://i.imgur.com/GNMWa95.png)
 
-![](https://i.imgur.com/GNMWa95.png)
+34c3 [video talk](https://www.youtube.com/watch?v=yhNaNCrcmBk)
+
+more at [idiot.io](idiot.io)
+
 
 ## tools
 the design was made in [inkscape](https://inkscape.org) by zohar, then rotoscoped in [eagle](www.autodesk.com/products/eagle) EDA to preper the board for manufacturing. 
@@ -13,5 +16,3 @@ the design was made in [inkscape](https://inkscape.org) by zohar, then rotoscope
 [gerbv](http://gerbv.geda-project.org) was then used to preview the gerber output and move the silkscreen to its right position.
 
 yair
-
-more at [idiot.io](http://idiot.io)
