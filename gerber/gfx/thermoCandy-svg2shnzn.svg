@@ -24,11 +24,11 @@
      inkscape:window-height="768"
      inkscape:window-width="1366"
      showgrid="false"
-     inkscape:current-layer="g2496"
+     inkscape:current-layer="layer1"
      inkscape:document-units="mm"
      inkscape:cy="41.25969"
-     inkscape:cx="36.538838"
-     inkscape:zoom="1.5828498"
+     inkscape:cx="-9.1855245"
+     inkscape:zoom="3.8272814"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -982,6 +982,80 @@
           </g>
         </g>
       </g>
+    </g>
+    <g
+       id="g5186"
+       transform="matrix(0.25090368,0,0,0.22462898,-9.9250774,-43.074922)"
+       style="display:inline;stroke-width:1.18878901">
+      <g
+         transform="matrix(0.08879552,0,0,0.06059456,31.020483,253.29856)"
+         id="g5123"
+         style="display:inline;fill:#ffff00;stroke-width:1.18878901">
+        <rect
+           transform="rotate(90)"
+           style="fill:#303030;stroke:none;stroke-width:0"
+           width="309.92102"
+           x="2.2656577"
+           y="-195.5585"
+           height="199.31496"
+           id="rect5105" />
+        <polygon
+           transform="matrix(1.0838868,0,0,1.950007,-8.5893033,-211.99501)"
+           style="fill:#1f1f1f;stroke-width:1.18878901"
+           points="181.984,126.266 10,126.266 0,116.266 191.984,116.266 "
+           id="polygon5107" />
+        <polygon
+           transform="matrix(1.0391472,0,0,1.5275382,-7.5156366,-100.3644)"
+           style="fill:#1f1f1f;stroke-width:1.18878901"
+           points="0,264.234 191.984,264.234 181.984,254.234 10,254.234 "
+           id="polygon5109" />
+        <polygon
+           transform="matrix(1.0838868,0,0,1.950007,-8.5893033,-211.99501)"
+           style="fill:#000000;stroke-width:1.18878901"
+           points="10,254.234 10,126.266 0,116.266 0,264.234 "
+           id="polygon5111" />
+        <polygon
+           transform="matrix(1.0838868,0,0,1.950007,-8.5893033,-211.99501)"
+           style="fill:#3d3d3d;stroke-width:1.18878901"
+           points="181.984,254.234 181.984,126.266 191.984,116.266 191.984,264.234 "
+           id="polygon5113" />
+        <g
+           id="g5121"
+           style="display:inline;opacity:1;stroke-width:1.18878901"
+           transform="matrix(0,-9.4581197,9.5903797,0,43.307895,294.78434)">
+          <g
+             id="g5119"
+             style="stroke-width:1.18878901">
+            <text
+               y="7.5861001"
+               x="6.43082"
+               style="font-size:5.31175041px;line-height:0%;font-family:OCRA;fill:#f2f2f2;stroke-width:1.48598635"
+               id="text5117"
+               font-size="4.2494">LM35</text>
+          </g>
+        </g>
+      </g>
+      <path
+         style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.11624491;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:112.06298065;stroke-opacity:1"
+         inkscape:transform-center-x="-3.4911451"
+         d="m 47.772713,255.37238 h 7.455627 l 8.738015,-6.93549 v 2.07876 l -8.738015,6.93549 h -7.455627 z"
+         id="rect5168"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccc" />
+      <rect
+         style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.11624491;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:112.06298065;stroke-opacity:1"
+         id="rect5170"
+         width="16.073988"
+         height="2.0787659"
+         x="47.772713"
+         y="261.78622" />
+      <path
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path5192"
+         d="m 47.772713,269.78949 h 7.455627 l 8.738015,6.93549 v -2.07876 l -8.738015,-6.93549 h -7.455627 z"
+         inkscape:transform-center-x="-3.4911451"
+         style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.11624491;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:112.06298065;stroke-opacity:1" />
     </g>
   </g>
 </svg>
