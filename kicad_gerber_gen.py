@@ -4,12 +4,14 @@
     Drill files
 
     source https://github.com/KiCad/kicad-source-mirror/blob/master/demos/python_scripts_examples/plot_board.py
+    additons via https://github.com/beagleboard/pocketbeagle/blob/master/kicad-scripts/kicad-fab.py
 '''
 
-import sys
+import sys, os, subprocess
 
 from pcbnew import *
 filename=sys.argv[1]
+plotDir = sys.argv[2] if len(sys.argv) > 2 else "plot/"
 
 board = LoadBoard(filename)
 
@@ -48,22 +50,19 @@ popt.SetSkipPlotNPTH_Pads( False );
 # Create filenames in a way that if they are sorted alphabetically, they
 # are shown in exactly the layering the board would look like. So
 #   gerbv *
-# just makes sense.
-
-
+# just makes sense. The drill-file will be numbered 00 so that it is first.
 plot_plan = [
-    ( Edge_Cuts, "0-Edge_Cuts",   "Edges" ),
+    ( Edge_Cuts, "01-Edge_Cuts",   "Edges" ),
 
-    ( F_Paste,   "1-PasteTop",    "Paste top" ),
-    ( F_SilkS,   "2-SilkTop",     "Silk top" ),
-    ( F_Mask,    "3-MaskTop",     "Mask top" ),
-    ( F_Cu,      "4-CuTop",       "Top layer" ),
+    ( F_SilkS,   "02-SilkTop",     "Silk top" ),
+    ( F_Mask,    "03-MaskTop",     "Mask top" ),
+    ( F_Cu,      "04-CuTop",       "Top layer" ),
 
-    ( B_Cu,      "5-CuBottom",    "Bottom layer" ),
-    ( B_Mask,    "6-MaskBottom",  "Mask bottom" ),
-    ( B_SilkS,   "7-SilkBottom",  "Silk top" ),
-    ( B_Paste,   "8-PasteBottom", "Paste Bottom" ),
+    ( B_SilkS,   "05-SilkBottom",  "Silk top" ),
+    ( B_Mask,    "06-MaskBottom",  "Mask bottom" ),
+    ( B_Cu,      "07-CuBottom",    "Bottom layer" ),
 ]
+
 
 
 for layer_info in plot_plan:
@@ -103,3 +102,12 @@ genMap = True
 print 'create drill and map files in %s' % pctl.GetPlotDirName()
 drlwriter.CreateDrillandMapFilesSet( pctl.GetPlotDirName(), genDrl, genMap );
 
+
+# We can't give just the filename for the name of the drill file at generation
+# time, but we do want its name to be a bit different to show up on top.
+# So this is an ugly hack to rename the drl-file to have a 0 in the beginning.
+base_name = filename[:-10]
+print 'rename drill file to: '+plotDir + base_name + ".drl"
+os.rename(plotDir + base_name + ".drl", plotDir + base_name + "-00.drl")
+
+os.system('gerbv plot/*')
