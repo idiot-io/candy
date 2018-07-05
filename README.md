@@ -1,7 +1,7 @@
 # candy
 Electrodible lolliPCBpops
 
-![](https://i.imgur.com/f7DI716.png) ![](https://i.imgur.com/GNMWa95.png)
+![](hardware/panelinkscape.png)
 
 34c3 [video talk](https://www.youtube.com/watch?v=yhNaNCrcmBk)
 
