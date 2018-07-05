@@ -6,7 +6,7 @@ Electrodible lolliPCBpops
 34c3 video cooking show and talk  
 ![https://www.youtube.com/watch?v=yhNaNCrcmBk](https://i.imgur.com/EHPclm0l.png)
 
-![https://i.imgur.com/Se7lJr6.png](https://i.imgur.com/Se7lJr6l.png)
+![https://photos.app.goo.gl/1L8ynp9WBErUAtG98](https://i.imgur.com/Se7lJr6l.png)
 
 more at [idiot.io](idiot.io)
 
