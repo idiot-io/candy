@@ -1,9 +1,10 @@
 # candy
 Electrodible lolliPCBpops
 
-![](hardware/panelinkscape.png)
+![3 candy panel](hardware/panelinkscape.png)
 
-34c3 [video talk](https://www.youtube.com/watch?v=yhNaNCrcmBk)
+34c3 video cooking show and talk  
+![https://www.youtube.com/watch?v=yhNaNCrcmBk](https://i.imgur.com/EHPclm0l.png)
 
 more at [idiot.io](idiot.io)
 
