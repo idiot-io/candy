@@ -28,18 +28,41 @@ WiFiClient espClient;
 PubSubClient client(espClient);
 const char* mqtt_server = "idiot.io";
 
+/////////////////////////////////////////////////
+//// OLED aliexpress ssd1306
+// see setup https://www.youtube.com/watch?v=RpK7-Ljnpho
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+#define SSD1306_LCDHEIGHT 64
+#define OLED_RESET LED_BUILTIN
+Adafruit_SSD1306 display(OLED_RESET);
+
+#include "imageidiot.h"
+
+
 ///////////////////////////////////////////////
 // pysicals
 #define ledStatus 2
+int linecount = 0;
 
 void setup() {
   Serial.begin(115200);
   Serial.println("starting..");
 
+  //OLED
+  display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
+  display.clearDisplay();
+  display.drawBitmap(0, 0, idiotio_Logo_bits, idiotio_Logo_width, idiotio_Logo_height, 1);
+  display.display();
+
+  display.setTextSize(1);
+  display.setTextColor(WHITE, BLACK);
+  display.setCursor(0, 0);
+
   //wifi manger
   WiFiManager wifiManager;
   wifiManager.autoConnect("AutoConnectAP");
-  Serial.println("connected...yeey :)");
+  Serial.println("connected...");
 
   //IRrecv
   irrecv.enableIRIn();  // Start the receiver
@@ -51,9 +74,19 @@ void setup() {
   pinMode(ledStatus, OUTPUT);
   digitalWrite(ledStatus, LOW);
 
+  delay(1500);
+
+  display.fillRect(4, 35, 108, 29, BLACK);
+  display.setCursor(4, 35);
+  display.print(WiFi.localIP().toString());
+  display.display();
+
+
 }
 
 void loop() {
+
+
   //mqtt loop
   if (!client.connected()) {
     reconnect();
@@ -65,16 +98,21 @@ void loop() {
     digitalWrite(ledStatus, HIGH);
 
     //mqtt
-
     String txt = uint64ToString(results.value, 16);
     char charBuf[50];
     txt.toCharArray(charBuf, 16);
 
     client.publish("outLicks", charBuf );
-    
-      Serial.println("sending: ");
-      Serial.println(charBuf);
 
+    Serial.print("sending: ");
+    Serial.println(charBuf);
+
+    //IR sig
+    //limited to 2 row, then need to jump up 8*2 on y
+    display.setCursor(4, 43 + ((linecount % 2) * 8));
+    display.print("sending: ");  display.print(charBuf);
+    display.display();
+    linecount++;
 
     delay(100);
 
@@ -125,4 +163,19 @@ void reconnect() {
       delay(5000);
     }
   }
+}
+
+void testdrawchar(void) {
+  display.setTextSize(1);
+  display.setTextColor(WHITE);
+  display.setCursor(0, 0);
+
+  for (uint8_t i = 0; i < 168; i++) {
+    if (i == '\n') continue;
+    display.write(i);
+    if ((i > 0) && (i % 21 == 0))
+      display.println();
+  }
+  display.display();
+  delay(1);
 }
