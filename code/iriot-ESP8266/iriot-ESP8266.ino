@@ -2,7 +2,30 @@
 /*
     test on your server with
     $ mosquitto_sub -h 127.0.0.1 -i testSub -t outLicks
+  =ESP8266 board=
+  //  to install ESP8266 in arduino IDE
+  https://github.com/esp8266/Arduino#installing-with-boards-manager
 
+  =libraries to install=
+    adafruit gfx library
+    adafruit SSD1306
+    IRremoteWSP8266
+    PubSubClient
+    WifiManager
+
+  =nodeMCU pinout =
+    ==IR CHQ1838==
+    // package facing you
+    // from left to right
+    D5/14
+    GND
+    3V3
+
+    ==OLED SD1306==
+    GND
+    3V3
+    D1/SCL
+    D2/SDA
 */
 
 /////////////////////////////////////////////////////////////////////////////
