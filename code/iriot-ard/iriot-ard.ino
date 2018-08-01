@@ -12,9 +12,9 @@
 
 #include "tiny_IRremote.h" 
 
-#define ledPin    0     // pin5 / PB0
+#define ledPin    1     // pin6 / PB1
 IRsend irsend;          // pin3 / PB4 / Digital 4 / TIMER1 output compare unit
-#define YOUR_NEC_CODE 9000
+#define YOUR_NEC_CODE 9004
 
 int ledState = LOW;
 
@@ -92,9 +92,10 @@ void loop() {
   uint8_t touchstate = tinytouch_sense();
   if (touchstate == tt_push) {
     ledState = HIGH;
-	
-    //irsend.sendNEC(YOUR_NEC_CODE, 32); // sending the nec code
-    irsend.sendNEC(netcode, 32); // sending the nec code
+
+  //https://www.analysir.com/blog/2015/09/01/simple-infrared-pwm-on-arduino-part-3-hex-ir-signals/
+    irsend.sendNEC(YOUR_NEC_CODE, 32); // sending the nec code
+    //irsend.sendNEC(netcode, 32); // sending the nec code
 	
     digitalWrite(ledPin, ledState);
   }

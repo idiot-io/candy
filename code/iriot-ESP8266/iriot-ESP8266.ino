@@ -75,6 +75,7 @@ void setup() {
   //OLED
   display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
   display.clearDisplay();
+  display.setCursor(0, 0);
   display.drawBitmap(0, 0, idiotio_Logo_bits, idiotio_Logo_width, idiotio_Logo_height, 1);
   display.display();
 
