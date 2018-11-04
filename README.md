@@ -1,23 +1,26 @@
+more at [idiot.io](idiot.io)
+
 # candy
 Electrodible lolliPCBpops
 
+34c3 [video](https://www.youtube.com/watch?v=yhNaNCrcmBk) cooking show and talk  
+
 ![3 candy panel](hardware/panelinkscape.png)
 
-34c3 [video](https://www.youtube.com/watch?v=yhNaNCrcmBk) cooking show and talk  
 ![](https://i.imgur.com/EHPclm0l.png)
 
 ![](https://i.imgur.com/Se7lJr6l.png)[album](https://photos.app.goo.gl/1L8ynp9WBErUAtG98)
 
-more at [idiot.io](idiot.io)
 
+
+design by zohar  
 
 ## tools
-the design was made in [inkscape](https://inkscape.org) by zohar
+using [inkscape](https://inkscape.org) with [svg2shenzen](https://github.com/badgeek/svg2shenzhen) extension - a wrapper/fork to [Kicad's](https://kicad.github.io) own bitmap2component plugin.  
+basicly - design a board in SVG vector format and export it as gerber files, ready for fabrication.  
 
-[svg2shenzen](https://github.com/badgeek/svg2shenzhen) is an extension to inkscape that allows you to design a board in inkscape and export it to a [kicad](https://kicad.github.io) (an EDA for printed circuit board making), from kicad you can export gerber files. i used that route for the silkscreen only. its much nicer the eagle "import BMP" script. 
-
-we dont even need to open kicad as we use a script to automate the gerber file generation.  
-after you run `extensins>svg2shenzhen>export`  
+included in the repo is a script to automate the gerber file generation.  
+so after you run `extensins>svg2shenzhen>export`  
 run  
 ```python2 ../kicad_gerber_gen.py IRiotCandy-svg2shnzn.kicad_pcb```
 
