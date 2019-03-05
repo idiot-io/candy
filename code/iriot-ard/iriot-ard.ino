@@ -6,6 +6,10 @@
   // https://i.imgur.com/935bRjk.png
   // wakeup code from nick gammon
   // http://www.gammon.com.au/forum/?id=11488&reply=9#reply9
+
+  //another wakeup option
+  //  http://blog.onlinux.fr/interruption-and-wdt-code-attiny85/
+  
             +-\/-+
            1|    |8 VCC
    WAKEUP  2|    |7
@@ -26,9 +30,12 @@
 const byte SWITCH = 3; // pin 2 / PCINT3
 
 #include "tiny_IRremote.h"
+// mybe replace with
+// https://www.analysir.com/blog/2015/09/01/simple-infrared-pwm-on-arduino-part-3-hex-ir-signals/
 
-#define LED    1     // pin6 / PB1
-IRsend irsend;          // pin3 / PB4 / TIMER1 output compare unit
+
+#define LED     1              // pin6 / PB1
+IRsend irsend;                // pin3 / PB4 / TIMER1 output compare unit
 #define YOUR_NEC_CODE 9004
 
 int ledState = LOW;
@@ -59,8 +66,7 @@ void setup() {
 
 void loop() {
 
-  //https://www.analysir.com/blog/2015/09/01/simple-infrared-pwm-on-arduino-part-3-hex-ir-signals/
-  digitalWrite(LED, HIGH);
+   digitalWrite(LED, HIGH);
   irsend.sendNEC(YOUR_NEC_CODE, 32); // sending the nec code
   delay(200);
   digitalWrite(LED,LOW);
