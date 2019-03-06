@@ -17,7 +17,7 @@
    viewBox="0 0 100.000000 100.000000"
    version="1.1"
    id="svg12537"
-   inkscape:version="0.92.1 r15371"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
    sodipodi:docname="IRiotV1.3.svg"
    enable-background="new">
   <sodipodi:namedview
@@ -28,17 +28,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.3237002"
-     inkscape:cx="218.72708"
-     inkscape:cy="47.097106"
+     inkscape:zoom="4.32549"
+     inkscape:cx="187.05895"
+     inkscape:cy="82.97219"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer12"
+     inkscape:current-layer="layer10"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:window-width="1366"
+     inkscape:window-height="768"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -91,7 +91,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -3700,7 +3700,8 @@
      style="display:inline;opacity:1"
      inkscape:label="F.Cu"
      inkscape:groupmode="layer"
-     id="g4293">
+     id="g4293"
+     sodipodi:insensitive="true">
     <path
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ff0042;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        d="m 53.186577,7.8092696 2.483598,-0.015189 0.02222,-0.00265 2.375048,-0.5648219 c 0.04365,-0.010239 0.07449,-0.049213 0.07441,-0.094051 V 5.8912923 c 0.483031,0.022701 0.938233,0.052184 1.24747,0.098703 1.424329,0.2142675 2.852021,1.3048297 2.852021,1.3048297 0.042,0.032367 0.102248,0.024765 0.134877,-0.017039 l 0.162263,-0.2087721 c 0.03283,-0.041952 0.02543,-0.1025763 -0.01654,-0.1353926 0,0 -1.463487,-1.1559831 -3.064412,-1.3968147 -0.344131,-0.051768 -0.816147,-0.08115 -1.315683,-0.1043861 V 5.0929068 c 1.14e-4,-0.053417 -0.04322,-0.096748 -0.09663,-0.096636 h -4.848961 l -0.0097,2.8129988 z"
@@ -3804,9 +3805,9 @@
        x="51.448166"
        y="1.1970879"
        rx="5.3543358"
-       ry="3.6253408e-005" />
+       ry="3.6253408e-05" />
     <rect
-       ry="3.6253408e-005"
+       ry="3.6253408e-05"
        rx="5.3543358"
        y="1.1970879"
        x="48.484383"
@@ -3851,7 +3852,8 @@
      style="display:inline;opacity:1"
      inkscape:label="F.Mask"
      inkscape:groupmode="layer"
-     id="g4295">
+     id="g4295"
+     sodipodi:insensitive="true">
     <g
        id="g2805"
        style="fill:#ffab20;fill-opacity:1;stroke:none"
@@ -3937,7 +3939,8 @@
      style="display:inline"
      inkscape:groupmode="layer"
      id="layer12"
-     inkscape:label="F.Silk">
+     inkscape:label="F.Silk"
+     sodipodi:insensitive="true">
     <g
        style="display:inline;stroke-width:2.73068023"
        transform="matrix(0.38743169,0,0,0.37653889,29.195147,75.527853)"
@@ -5394,14 +5397,7 @@
      inkscape:label="Drill"
      id="layer10"
      inkscape:groupmode="layer"
-     style="display:inline"
-     sodipodi:insensitive="true">
-    <circle
-       r="0"
-       cy="82.473816"
-       cx="63.915176"
-       id="path5639-2-3"
-       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:0.0298231;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+     style="display:inline">
     <circle
        r="0.2"
        cy="78.775009"
