@@ -17,7 +17,7 @@
    viewBox="0 0 100.000000 100.000000"
    version="1.1"
    id="svg12537"
-   inkscape:version="0.92.1 r15371"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
    sodipodi:docname="BitCandyV1.1.svg"
    enable-background="new">
   <sodipodi:namedview
@@ -29,16 +29,16 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.1090975"
-     inkscape:cx="181.8153"
-     inkscape:cy="205.66903"
+     inkscape:cx="148.55891"
+     inkscape:cy="224.12531"
      inkscape:document-units="mm"
-     inkscape:current-layer="g4295"
+     inkscape:current-layer="layer10"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:window-width="1362"
+     inkscape:window-height="717"
+     inkscape:window-x="0"
+     inkscape:window-y="49"
+     inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -123,7 +123,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -5495,8 +5495,7 @@
      style="display:inline"
      inkscape:groupmode="layer"
      id="layer10"
-     inkscape:label="Drill"
-     sodipodi:insensitive="true">
+     inkscape:label="Drill">
     <circle
        r="0.2"
        cy="51.807285"
@@ -5589,6 +5588,19 @@
        cx="51.404446"
        cy="50.141666"
        r="0.5" />
+    <g
+       style="display:inline"
+       id="g18742"
+       transform="matrix(-1,0,0,1,83.226834,-9.9853509e-8)">
+      <circle
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         style="display:inline;fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:0.13513392;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle18735"
+         cx="51.404446"
+         cy="50.141666"
+         r="0.5" />
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -5614,18 +5626,6 @@
        id="path13325"
        inkscape:export-xdpi="150"
        inkscape:export-ydpi="150" />
-    <g
-       id="g18742"
-       transform="matrix(-1,0,0,1,83.226834,0)">
-      <circle
-         inkscape:export-ydpi="150"
-         inkscape:export-xdpi="150"
-         style="display:inline;fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:0.13513392;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="circle18735"
-         cx="51.404446"
-         cy="50.141666"
-         r="0.5" />
-    </g>
   </g>
   <g
      inkscape:groupmode="layer"
