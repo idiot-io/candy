@@ -18,7 +18,7 @@
    version="1.1"
    id="svg12537"
    inkscape:version="0.92.4 5da689c313, 2019-01-14"
-   sodipodi:docname="BitCandyV1.1.svg"
+   sodipodi:docname="BitCandy.svg"
    enable-background="new">
   <sodipodi:namedview
      showborder="false"
@@ -34,10 +34,10 @@
      inkscape:document-units="mm"
      inkscape:current-layer="layer10"
      showgrid="false"
-     inkscape:window-width="1362"
-     inkscape:window-height="717"
+     inkscape:window-width="1366"
+     inkscape:window-height="768"
      inkscape:window-x="0"
-     inkscape:window-y="49"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -5588,19 +5588,15 @@
        cx="51.404446"
        cy="50.141666"
        r="0.5" />
-    <g
-       style="display:inline"
-       id="g18742"
-       transform="matrix(-1,0,0,1,83.226834,-9.9853509e-8)">
-      <circle
-         inkscape:export-ydpi="150"
-         inkscape:export-xdpi="150"
-         style="display:inline;fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:0.13513392;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="circle18735"
-         cx="51.404446"
-         cy="50.141666"
-         r="0.5" />
-    </g>
+    <circle
+       r="0.5"
+       cy="50.141666"
+       cx="-31.822388"
+       id="circle18735"
+       style="display:inline;fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:0.13513392;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       transform="scale(-1,1)" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -5682,4 +5678,7 @@
          sodipodi:nodetypes="cccccccc"
          inkscape:connector-curvature="0"
          id="path5490"
-         d="m 181.36946,276.62744 c 1.29695,-2.12757 2.58943,-2.77011 5.55637,-4.74614 0.90877,-0.0557 1.50888,0.235
+         d="m 181.36946,276.62744 c 1.29695,-2.12757 2.58943,-2.77011 5.55637,-4.74614 0.90877,-0.0557 1.50888,0.235" />
+    </g>
+  </g>
+</svg>
