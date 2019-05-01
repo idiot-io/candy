@@ -110,19 +110,16 @@ drlwriter.CreateDrillandMapFilesSet( pctl.GetPlotDirName(), genDrl, genMap );
 base_name = os.path.splitext(os.path.basename(filename))[0]
 print base_name
 
-named_file = os.path.dirname(filename) + "/plot/" + base_name + ".drl"
-print 'rename drill file: '+ named_file
+drill_file = os.path.dirname(filename) + "/plot/" + base_name
+print 'drill file: '+ drill_file
 
-reanmed_file = os.path.dirname(filename) + "/plot/" + base_name + "-00.drl"
-print 'rename to: '+ reanmed_file
-
-if os.path.exists(reanmed_file):
+if os.path.exists(drill_file+ "-00.drl"):
     print 'file exists, skip rename'
 else:
-    os.rename(os.path.dirname(filename) + "/plot/" + base_name + ".drl", os.path.dirname(filename) + "/plot/" + base_name + "-00.drl")
+    os.rename(drill_file+ ".drl", drill_file+ "-00.drl")
 
 if os.name == 'nt':
-    os.system(gerbv_path+'/gerbv.exe plot/*')
+    os.system(gerbv_path+'/gerbv.exe '+ os.path.dirname(filename)+'/plot/*')
     pass # Windows
 else:
     os.system('gerbv plot/*')
