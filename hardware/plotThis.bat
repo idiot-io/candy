@@ -14,6 +14,7 @@ set gerbv_path=G:/bin/gerbv_2018-07-26git_64/bin/
 
 pushd %~dp0
 
+rmdir /s %~dp1\plot
 python.exe kicad_gerber_gen.py %1 %gerbv_path%
 
 ::uncomment pause to debug
