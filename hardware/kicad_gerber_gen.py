@@ -11,11 +11,12 @@ import sys, os, subprocess
 
 from pcbnew import *
 filename=sys.argv[1]
-plotDir = sys.argv[2] if len(sys.argv) > 2 else "plot/"
+gerbv_path=sys.argv[2]
 
+    
 board = LoadBoard(filename)
 
-plotDir = "plot/"
+plotDir = os.path.dirname(filename)+"/plot/"
 
 pctl = PLOT_CONTROLLER(board)
 
@@ -106,8 +107,23 @@ drlwriter.CreateDrillandMapFilesSet( pctl.GetPlotDirName(), genDrl, genMap );
 # We can't give just the filename for the name of the drill file at generation
 # time, but we do want its name to be a bit different to show up on top.
 # So this is an ugly hack to rename the drl-file to have a 0 in the beginning.
-base_name = filename[:-10]
-print 'rename drill file to: '+plotDir + base_name + ".drl"
-os.rename(plotDir + base_name + ".drl", plotDir + base_name + "-00.drl")
+base_name = os.path.splitext(os.path.basename(filename))[0]
+print base_name
 
-os.system('gerbv plot/*')
+named_file = os.path.dirname(filename) + "/plot/" + base_name + ".drl"
+print 'rename drill file: '+ named_file
+
+reanmed_file = os.path.dirname(filename) + "/plot/" + base_name + "-00.drl"
+print 'rename to: '+ reanmed_file
+
+if os.path.exists(reanmed_file):
+    print 'file exists, skip rename'
+else:
+    os.rename(os.path.dirname(filename) + "/plot/" + base_name + ".drl", os.path.dirname(filename) + "/plot/" + base_name + "-00.drl")
+
+if os.name == 'nt':
+    os.system(gerbv_path+'/gerbv.exe plot/*')
+    pass # Windows
+else:
+    os.system('gerbv plot/*')
+    pass # other (unix)
