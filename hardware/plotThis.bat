@@ -9,14 +9,35 @@
 :: but it can live anywhere
 @echo off
 
-set Path=C:/Program Files/KiCad/bin/
-set gerbv_path=C:\bin\GerbVPortable\App\gerbv\bin
+set Path=C:\bin\KiCad\bin\
+set gerbv_path=C:\bin\gerbvPortable\App\gerbv64\bin
 
+if exist %Path% (
+	echo found Kicad at %Path%
+    goto :findGerbv
+) else (
+    echo Cant find Kicad folder!!!!
+	echo d/l from http://kicad.org
+	goto :EOL
+)
+:findGerbv
+if exist %gerbv_path% (
+	echo found gerbv at %gerbv_path%
+    goto :run
+) else (
+    echo Cant find gerbv folder!!!!
+	echo d/l from https://sourceforge.net/projects/gerbv-portable/
+	goto :EOL
+)
+
+
+:run
+echo .
 pushd %~dp0
-
 echo first we delete the previous plot folder
 rmdir /s %~dp1\plot
 python.exe kicad_gerber_gen.py %1 %gerbv_path%
 
+:EOL
 ::uncomment pause to debug
 ::pause
