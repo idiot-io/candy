@@ -10,7 +10,7 @@
 @echo off
 
 set Path=C:\bin\KiCad\bin\
-set gerbv_path=C:\bin\gerbvPortable\App\gerbv64\bin
+set gerbv_path=C:\BIN\gerbv
 
 if exist %Path% (
 	echo found Kicad at %Path%
@@ -39,5 +39,6 @@ rmdir /s %~dp1\plot
 python.exe kicad_gerber_gen.py %1 %gerbv_path%
 
 :EOL
+pause
 ::uncomment pause to debug
 ::pause
