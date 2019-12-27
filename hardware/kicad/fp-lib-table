@@ -1,0 +1,4 @@
+
+(fp_lib_table
+  (lib (name "circuitV2.5")(type KiCad)(uri "$(KIPRJMOD)/circuitV2.5.pretty")(options "")(descr ""))
+)
