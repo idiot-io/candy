@@ -3,11 +3,10 @@ more at [idiot.io](idiot.io)
 # candy
 Electrodible lolliPCBpops
 
-![iso look](/GFX/asset_iso_v1.1.png?raw=true)
+...... ![iso look](/GFX/asset_iso_v1.1.png?raw=true)  ................... ![basic look](/GFX/asset_basic_2.1.png?raw=true)
+
 
 34c3 [video](https://www.youtube.com/watch?v=yhNaNCrcmBk) cooking show and talk  
-
-![3 candy panel](hardware/panelinkscape.png)
 
 ![](https://i.imgur.com/EHPclm0l.png)
 
