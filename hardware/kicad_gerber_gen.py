@@ -10,9 +10,12 @@
 import sys, os, subprocess, shutil, platform
 from pcbnew import *
 
-if len(sys.argv) < 3:
-    print("Usage: python3 script.py [filename] [gerbv_path]")
+if len(sys.argv) < 2:
+    print("Usage: python3 script.py [abspath].kicad_pcb")
     sys.exit(1)
+
+
+
 # A helper function to convert a UTF8 string for python2 or python3
 def fromUTF8Text( afilename ):
     if sys.version_info < (3, 0):
@@ -33,17 +36,20 @@ def get_filename_without_extension(file_path):
     file_name_without_extension = os.path.splitext(base_name)[0]  # remove the extension
     return file_name_without_extension
  
-filename=sys.argv[1]
-gerbv_path=sys.argv[2]
-
-gerbv_executable = "gerbv.exe" if platform.system() == "Windows" else "gerbv"
-if shutil.which(gerbv_executable) is None:
-    print(f"{gerbv_executable} is not installed or not found on system PATH.")
+abspath = sys.argv[1]
+if os.path.exists(abspath):
+    print("found " + abspath)
+    abspath = os.path.abspath(abspath)
+    filename = get_filename_without_extension(abspath)
+else:
+    print("not found " + abspath)
     sys.exit(1)
 
-board = LoadBoard(filename)
-plotDir = os.path.dirname(filename)+"/plot/"
+scriptlocation = os.path.dirname(os.path.realpath(__file__))
 
+board = LoadBoard(abspath)
+plotDir = scriptlocation + "/export/" + filename + "_plot/"
+print("write to " + plotDir)
 
 pctl = PLOT_CONTROLLER(board)
 popt = pctl.GetPlotOptions()
@@ -128,10 +134,27 @@ drlwriter.CreateDrillandMapFilesSet( pctl.GetPlotDirName(), genDrl, genMap );
 rptfn = pctl.GetPlotDirName() + 'drill_report.rpt'
 drlwriter.GenDrillReportFile( rptfn );
 
-
-drill_file = pctl.GetPlotDirName() + get_filename_without_extension(filename)
+# Rename the .drl file, so it apears first in the list of gerber files
+drill_file = pctl.GetPlotDirName() + filename
 print("rename " + drill_file + ".drl to " + drill_file + "-00.drl")
 if os.path.exists(drill_file + "-00.drl"):
     print('file exists, skip rename')
 else:
     os.rename(drill_file + ".drl", drill_file + "-00-drill.drl")
+
+#gerbv preview 
+
+#make list of all files in plotdir
+plotfiles = []
+for file in os.listdir(plotDir):
+    #if not pdf or rpt
+    if not file.endswith(".pdf") and not file.endswith(".rpt"):
+        plotfiles.append(os.path.join(plotDir, file))
+
+#pass filelist to gerbv, with spaces between filenames
+#run only if gerbv is installed
+gerbv_executable = "gerbv"
+if shutil.which(gerbv_executable) is not None:
+    subprocess.Popen([gerbv_executable] + plotfiles)
+else:
+    print(f"{gerbv_executable} is not installed or not found on system PATH. consider installing")
