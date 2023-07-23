@@ -6,4 +6,4 @@
 *.pretty
 *.pro
 fp-*
-plot/
+*_plot/
