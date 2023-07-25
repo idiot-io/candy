@@ -1,11 +1,11 @@
-'''
+"""
     A python script example to create plot files to build a board:
     Gerber files
     Drill files
 
     source https://github.com/KiCad/kicad-source-mirror/blob/master/demos/python_scripts_examples/plot_board.py
     additons via https://github.com/beagleboard/pocketbeagle/blob/master/kicad-scripts/kicad-fab.py
-'''
+"""
 
 import sys, os, subprocess, shutil, platform
 from pcbnew import *
@@ -15,9 +15,8 @@ if len(sys.argv) < 2:
     sys.exit(1)
 
 
-
 # A helper function to convert a UTF8 string for python2 or python3
-def fromUTF8Text( afilename ):
+def fromUTF8Text(afilename):
     if sys.version_info < (3, 0):
         return afilename.encode()
     else:
@@ -35,7 +34,8 @@ def get_filename_without_extension(file_path):
     base_name = os.path.basename(file_path)  # get the filename
     file_name_without_extension = os.path.splitext(base_name)[0]  # remove the extension
     return file_name_without_extension
- 
+
+
 abspath = sys.argv[1]
 if os.path.exists(abspath):
     print("found " + abspath)
@@ -64,15 +64,17 @@ popt.SetSketchPadLineWidth(FromMM(0.1))
 popt.SetAutoScale(False)
 popt.SetScale(1)
 popt.SetMirror(False)
-popt.SetUseGerberAttributes(False) #gerbv doesnt like gerber x2 attributes
+popt.SetUseGerberAttributes(False)  # gerbv doesnt like gerber x2 attributes
 # popt.SetIncludeGerberNetlistInfo(True)
 # popt.SetUseGerberProtelExtensions(False)
 popt.SetUseAuxOrigin(True)
 
 # This by gerbers only (also the name is truly horrid!)
-popt.SetSubtractMaskFromSilk(False) #remove solder mask from silk to be sure there is no silk on pads
+popt.SetSubtractMaskFromSilk(
+    False
+)  # remove solder mask from silk to be sure there is no silk on pads
 
-#Create a pdf file of the top silk layer
+# Create a pdf file of the top silk layer
 # pctl.SetLayer(F_SilkS)
 # pctl.OpenPlotfile("Silk", PLOT_FORMAT_PDF, "Assembly guide")
 # pctl.PlotLayer()
@@ -95,14 +97,14 @@ plot_plan = [
 # the right Gerber file header.
 for layer_info in plot_plan:
     if layer_info[1] <= B_Cu:
-        popt.SetSkipPlotNPTH_Pads( True )
+        popt.SetSkipPlotNPTH_Pads(True)
     else:
-        popt.SetSkipPlotNPTH_Pads( False )
+        popt.SetSkipPlotNPTH_Pads(False)
 
     pctl.SetLayer(layer_info[1])
     pctl.OpenPlotfile(layer_info[0], PLOT_FORMAT_GERBER, layer_info[2])
 
-    print( 'plot %s' % fromUTF8Text( pctl.GetPlotFileName() ) )
+    print("plot %s" % fromUTF8Text(pctl.GetPlotFileName()))
     pctl.PlotLayer()
 
 # At the end you have to close the last plot, otherwise you don't know when
@@ -111,50 +113,53 @@ pctl.ClosePlot()
 
 # Fabricators need drill files.
 # sometimes a drill map file is asked (for verification purpose)
-drlwriter = EXCELLON_WRITER( board )
-drlwriter.SetMapFileFormat( PLOT_FORMAT_PDF )
+drlwriter = EXCELLON_WRITER(board)
+drlwriter.SetMapFileFormat(PLOT_FORMAT_PDF)
 
 mirror = False
 minimalHeader = False
-offset = VECTOR2I(0,0)
+offset = VECTOR2I(0, 0)
 # False to generate 2 separate drill files (one for plated holes, one for non plated holes)
 # True to generate only one drill file
 mergeNPTH = True
-drlwriter.SetOptions( mirror, minimalHeader, offset, mergeNPTH )
+drlwriter.SetOptions(mirror, minimalHeader, offset, mergeNPTH)
 
 metricFmt = True
-drlwriter.SetFormat( metricFmt )
+drlwriter.SetFormat(metricFmt)
 
 genDrl = True
 genMap = True
-print( 'create drill and map files in %s' % fromUTF8Text( pctl.GetPlotDirName() ) )
-drlwriter.CreateDrillandMapFilesSet( pctl.GetPlotDirName(), genDrl, genMap );
+print("create drill and map files in %s" % fromUTF8Text(pctl.GetPlotDirName()))
+drlwriter.CreateDrillandMapFilesSet(pctl.GetPlotDirName(), genDrl, genMap)
 
 # One can create a text file to report drill statistics
-rptfn = pctl.GetPlotDirName() + 'drill_report.rpt'
-drlwriter.GenDrillReportFile( rptfn );
+rptfn = pctl.GetPlotDirName() + "drill_report.rpt"
+drlwriter.GenDrillReportFile(rptfn)
 
 # Rename the .drl file, so it apears first in the list of gerber files
 drill_file = pctl.GetPlotDirName() + filename
 print("rename " + drill_file + ".drl to " + drill_file + "-00.drl")
 if os.path.exists(drill_file + "-00.drl"):
-    print('file exists, skip rename')
+    print("file exists, skip rename")
 else:
     os.rename(drill_file + ".drl", drill_file + "-00-drill.drl")
 
-#gerbv preview 
+# gerbv preview
 
-#make list of all files in plotdir
+# make list of all files in plotdir
 plotfiles = []
 for file in os.listdir(plotDir):
-    #if not pdf or rpt
+    # if not pdf or rpt
     if not file.endswith(".pdf") and not file.endswith(".rpt"):
         plotfiles.append(os.path.join(plotDir, file))
+plotfiles.sort()
 
-#pass filelist to gerbv, with spaces between filenames
-#run only if gerbv is installed
+# pass filelist to gerbv, with spaces between filenames
+# run only if gerbv is installed
 gerbv_executable = "gerbv"
 if shutil.which(gerbv_executable) is not None:
     subprocess.Popen([gerbv_executable] + plotfiles)
 else:
-    print(f"{gerbv_executable} is not installed or not found on system PATH. consider installing")
+    print(
+        f"{gerbv_executable} is not installed or not found on system PATH. consider installing"
+    )
