@@ -139,12 +139,12 @@ drlwriter.GenDrillReportFile(rptfn)
 # Rename the .drl file, so it apears first in the list of gerber files
 drill_file = pctl.GetPlotDirName() + filename
 print("rename " + drill_file + ".drl to " + drill_file + "-00.drl")
+#delete previous then rename
 if os.path.exists(drill_file + "-00.drl"):
-    print("file exists, skip rename")
-else:
+    os.remove(drill_file + "-00.drl")
     os.rename(drill_file + ".drl", drill_file + "-00-drill.drl")
 
-# gerbv preview
+### gerbv preview
 
 # make list of all files in plotdir
 plotfiles = []
@@ -157,6 +157,10 @@ plotfiles.sort()
 # pass filelist to gerbv, with spaces between filenames
 # run only if gerbv is installed
 gerbv_executable = "gerbv"
+#if windows run using "C:\bin\gerbv\gerbv.exe"
+if platform.system() == "Windows":
+    gerbv_executable = r"C:\bin\gerbv\gerbv.exe"
+
 if shutil.which(gerbv_executable) is not None:
     subprocess.Popen([gerbv_executable] + plotfiles)
 else:
